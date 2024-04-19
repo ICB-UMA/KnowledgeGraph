@@ -56,13 +56,8 @@ class CrossEncoderReranker(CrossEncoder):
         elif evaluator_type == "CERankingEvaluator":
             evaluator = CERerankingEvaluator(self.transform_triplets_rankingeval(dev_samples), name='dev')
 
-        if torch.cuda.device_count() > 1:
-            self.module.fit(train_dataloader=train_dataloader, evaluator=evaluator, epochs=epochs,
-                            optimizer_params=optimizer_parameters, weight_decay=weight_decay,
-                            evaluation_steps=evaluation_steps, warmup_steps=int(len(train_samples) / batch_size * epochs * 0.1),
-                            output_path=output_path, save_best_model=save_best_model)
-        else:
-            self.fit(train_dataloader=train_dataloader, evaluator=evaluator, epochs=epochs,
+
+        self.fit(train_dataloader=train_dataloader, evaluator=evaluator, epochs=epochs,
                      optimizer_params=optimizer_parameters, weight_decay=weight_decay,
                      evaluation_steps=evaluation_steps, warmup_steps=int(len(train_samples) / batch_size * epochs * 0.1),
                      output_path=output_path, save_best_model=save_best_model)
