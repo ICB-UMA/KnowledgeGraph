@@ -8,6 +8,10 @@ import torch
 from torch.nn import DataParallel
 from sentence_transformers.cross_encoder.evaluation import CERerankingEvaluator, CEBinaryClassificationEvaluator
 
+"""
+Author: Fernando Gallego, Guillermo López García & Luis Gasco Sánchez
+Affiliation: Researcher at the Computational Intelligence (ICB) Group, University of Málaga & Barcelona Supercomputing Center (BSC)
+"""
 
 class CrossEncoderReranker(CrossEncoder):
     def __init__(self, model_name: str, model_type="mask", max_seq_length:int = 256):

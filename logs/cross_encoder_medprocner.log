@@ -1,0 +1,7 @@
+2024-05-03 21:50:02,309 - INFO - Starting the training process... (cross_encoder_training.py:115)
+2024-05-03 21:50:02,309 - INFO - Loading data... (cross_encoder_training.py:50)
+2024-05-03 21:50:02,519 - INFO - Preparing model... (cross_encoder_training.py:66)
+2024-05-03 21:52:04,614 - INFO - Generating triplets... (cross_encoder_training.py:82)
+2024-05-03 21:52:13,363 - INFO - Training cross-encoder... (cross_encoder_training.py:105)
+2024-05-03 23:49:52,389 - INFO - Model saved to ../models/cef_medprocner_kg_1_cand_200_epoch_1_bs_32 (cross_encoder_training.py:110)
+2024-05-03 23:49:52,394 - INFO - Training complete. (cross_encoder_training.py:120)

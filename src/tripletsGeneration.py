@@ -1,23 +1,51 @@
 import pandas as pd
 
+"""
+Author: Fernando Gallego
+Affiliation: Researcher at the Computational Intelligence (ICB) Group, University of Málaga
+"""
+
 class TripletsGeneration:
+    """
+    A base class for generating triplets.
+
+    Attributes:
+        df (pandas.DataFrame): DataFrame with necessary columns.
+    """
+
     def __init__(self, df):
         """
         Initialize the TripletsGeneration class with a DataFrame.
         
         Args:
-        df (pandas.DataFrame): DataFrame with necessary columns.
+            df (pandas.DataFrame): DataFrame with necessary columns.
         """
         self.df = df
 
     def generate_triplets(self):
         """
         Placeholder method to be overridden by subclasses.
+        
+        Raises:
+            NotImplementedError: This method should be overridden by subclasses.
         """
         raise NotImplementedError("This method should be overridden by subclasses.")
 
 class TopHardTriplets(TripletsGeneration):
+    """
+    Subclass of TripletsGeneration that generates top-hard triplets.
+    """
+
     def generate_triplets(self, num_negatives=None):
+        """
+        Generates top-hard triplets.
+
+        Args:
+            num_negatives (int, optional): Number of negative samples to consider. Defaults to None.
+
+        Returns:
+            pandas.DataFrame: DataFrame containing anchor, positive, and negative columns.
+        """
         results = []
         for index, row in self.df.iterrows():
             term, correct_code = row['term'], row['code']
@@ -33,10 +61,22 @@ class TopHardTriplets(TripletsGeneration):
 
         return pd.DataFrame(results, columns=["anchor", "positive", "negative"])
 
-
-
 class HardTripletsKG(TripletsGeneration):
+    """
+    Subclass of TripletsGeneration that generates hard triplets using knowledge graph.
+    """
+
     def __init__(self, df, G, scui_to_cui_dict, depth, bidirectional=False):
+        """
+        Initialize HardTripletsKG class.
+
+        Args:
+            df (pandas.DataFrame): DataFrame with necessary columns.
+            G (networkx.Graph): Knowledge graph.
+            scui_to_cui_dict (dict): Mapping from source concept unique identifiers (SCUIs) to concept unique identifiers (CUIs).
+            depth (int): Depth to explore in the knowledge graph.
+            bidirectional (bool, optional): Whether to consider bidirectional connections in the knowledge graph. Defaults to False.
+        """
         super().__init__(df)
         self.G = G
         self.scui_to_cui_dict = scui_to_cui_dict
@@ -44,6 +84,19 @@ class HardTripletsKG(TripletsGeneration):
         self.bidirectional = bidirectional
 
     def add_related_as_negatives(self, code, exclude_code, depth, G, bidirectional):
+        """
+        Recursively add related concepts as negatives.
+
+        Args:
+            code (str): Concept code.
+            exclude_code (str): Code to exclude.
+            depth (int): Depth to explore in the knowledge graph.
+            G (networkx.Graph): Knowledge graph.
+            bidirectional (bool): Whether to consider bidirectional connections in the knowledge graph.
+
+        Returns:
+            list: List of negative concept codes.
+        """
         if code == exclude_code or depth == 0 or code not in G:
             return []
         
@@ -61,6 +114,12 @@ class HardTripletsKG(TripletsGeneration):
         return list(set(negatives))  # Return unique items
 
     def generate_triplets(self):
+        """
+        Generates hard triplets using knowledge graph.
+
+        Returns:
+            pandas.DataFrame: DataFrame containing anchor, positive, and negative columns.
+        """
         results = []
         for idx, row in self.df.iterrows():
             term = row['term']
@@ -97,9 +156,21 @@ class HardTripletsKG(TripletsGeneration):
 
         return pd.DataFrame(results, columns=["anchor", "positive", "negative"])
 
-
 class SimilarityHardTriplets(TripletsGeneration):
+    """
+    Subclass of TripletsGeneration that generates triplets based on text similarity.
+    """
+
     def generate_triplets(self, similarity_threshold):
+        """
+        Generates triplets based on text similarity.
+
+        Args:
+            similarity_threshold (float): Similarity threshold.
+
+        Returns:
+            pandas.DataFrame: DataFrame containing anchor, positive, and negative columns.
+        """
         results = []
         for index, row in self.df.iterrows():
             term, correct_code = row['term'], row['code']

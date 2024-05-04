@@ -1,3 +1,8 @@
+"""
+Author: Fernando Gallego
+Affiliation: Researcher at the Computational Intelligence (ICB) Group, University of Málaga
+"""
+
 def calculate_topk_accuracy(df, topk_values):
     """
     Calcula el Top-k accuracy para cada valor de k en topk_values.
