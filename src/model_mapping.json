@@ -1,0 +1,12 @@
+{
+    "SapBERT-UMLS-2020AB-all-lang-from-XLMR/": "SapBERT_Multilingue_XLMR",
+    "SapBERT-UMLS-2020AB-all-lang-from-XLMR-large/": "SapBERT_Multilingue_XLMR-large",
+    "spanish_sapbert_models/sapbert_15_grandparents_1epoch/": "Spanish_SapBERT_grandparents",
+    "spanish_sapbert_models/sapbert_15_parents_1epoch/": "Spanish_SapBERT_parents",
+    "spanish_sapbert_models/sapbert_15_noparents_1epoch/": "Spanish_SapBERT_no_parents",
+    "sapbert_B_256_E_1/": "Spanish_SapBERT_ICB",
+    "biencoder_symptemist_enriched_triplets_5_epoch_32_batch_5_parents_stag/": "BiEncoder_SympTEMIST",
+    "biencoder_medprocner_enriched_triplets_1_epoch_32_batch_5_parents_stag/": "BiEncoder_MedProcNER",
+    "biencoder_distemist_enriched_triplets_5_epoch_32_batch_5_parents_stag/": "BiEncoder_DisTEMIST",
+    "roberta-base-biomedical-clinical-es/": "Roberta-base-biomedical-clinical-es"
+}

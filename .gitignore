@@ -1,8 +1,10 @@
 notebooks/wandb
-src/utils/scui_to_cui_dict.pkl
-src/utils/graph_G.pkl
+results/*
+src/scui_to_cui_dict.pkl
+src/graph_G.pkl
 notebooks/umls_graph.pkl
 notebooks/UMLS2Graph.ipynb
+data/*
 models/*
-src/utils/model_mapping.json
 src/__pycache__
+logs/*

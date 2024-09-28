@@ -9,7 +9,8 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '../src'))
 import faissEncoder as faiss_enc
 from crossEncoder import CrossEncoderReranker
 from tripletsGeneration import HardTripletsKG, SimilarityHardTriplets, TopHardTriplets
-from utils.logger import setup_custom_logger
+from logger import setup_custom_logger
+from utils import *
 
 def parse_args():
     """
@@ -20,7 +21,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Train a cross-encoder model for entity linking.")
     parser.add_argument('--model_mapping_file', type=str, required=True, help='Path to the model mapping file')
     parser.add_argument('--corpus', type=str, default='MedProcNER', help='Name of the corpus to process')
-    parser.add_argument('--corpus_path', type=str, default='../../EntityLinking/data/MedProcNER/processed_data/', help='Path to the corpus data')
+    parser.add_argument('--corpus_path', type=str, default='../../data/', help='Path to the corpus data')
     parser.add_argument('--model_path', type=str, default='../../models/spanish_sapbert_models/sapbert_15_grandparents_1epoch/', help='Model path for FAISS encoder and cross encoder')
     parser.add_argument('--hard_triplets_type', type=str, choices=['kg', 'top', 'sim', 'bkg'], default='kg', help='Type of hard triplets to generate')
     parser.add_argument('--batch_size', type=int, default=128, help='Training batch size')
@@ -37,20 +38,6 @@ def parse_args():
     parser.add_argument('--log_file', type=str, default=None, help='File to log to (defaults to console if not provided)')
     return parser.parse_args()
 
-
-def load_data(args, logger):
-    """
-    Load datasets needed for training and testing.
-    Args:
-        args: Parsed command line arguments
-        logger: Configured logger object
-    Returns:
-        Various pandas DataFrames required for training/testing
-    """
-    logger.info("Loading data...")
-    df_gaz = pd.read_csv(os.path.join(args.corpus_path, "gazetteer_term_code.tsv"), sep="\t", header=0, dtype={"code": str}, low_memory=False)
-    df_train_link = pd.read_csv(os.path.join(args.corpus_path, "df_link_train.tsv"), sep="\t", header=0, dtype={"code": str}, low_memory=False)
-    return df_gaz, df_train_link
 
 def prepare_model(args, df_gaz, df_train_link, logger):
     """
@@ -85,9 +72,9 @@ def generate_triplets(args, df_train_link, logger):
     elif args.hard_triplets_type == 'sim':
         return SimilarityHardTriplets(df_train_link).generate_triplets(similarity_threshold=0.35)
     elif args.hard_triplets_type in ['kg', 'bkg']:
-        with open("../src/utils/graph_G.pkl", "rb") as f:
+        with open("../src/graph_G.pkl", "rb") as f:
             G = pickle.load(f)
-        with open("../src/utils/scui_to_cui_dict.pkl", "rb") as handle:
+        with open("../src/scui_to_cui_dict.pkl", "rb") as handle:
             mapping_dict = pickle.load(handle)
         return HardTripletsKG(df_train_link, G, mapping_dict, args.depth, bidirectional=(args.hard_triplets_type == 'bkg')).generate_triplets()
     else:
@@ -104,7 +91,7 @@ def train_cross_encoder(args, df_hard_triplets, logger):
     """
     logger.info("Training cross-encoder...")
     cross_encoder = CrossEncoderReranker(args.model_path, model_type="mask", max_seq_length=args.max_length)
-    output_path = os.path.join("../models/", f"cef_{args.corpus.lower()}_{args.hard_triplets_type}_{args.depth}_cand_{args.num_negatives}_epoch_{args.epochs}_bs_{args.batch_size}")
+    output_path = os.path.join("../models/", f"cef_{args.corpus.lower()}_{args.model_mapping_file[args.model_path.split("/")-[1]]}_{args.hard_triplets_type}_{args.depth}_cand_{args.num_negatives}_epoch_{args.epochs}_bs_{args.batch_size}")
     cross_encoder.train(df_hard_triplets, output_path, args.batch_size, args.epochs, optimizer_parameters={"lr": args.lr}, weight_decay=args.weight_decay, evaluation_steps=args.eval_steps, save_best_model=False, test_size=args.test_size)
     cross_encoder.save(output_path)
     logger.info(f"Model saved to {output_path}")
@@ -113,7 +100,8 @@ def main():
     args = parse_args()
     logger = setup_custom_logger('crossEncoderTraining', log_file=args.log_file)
     logger.info("Starting the training process...")
-    df_gaz, df_train_link = load_data(args, logger)
+    _, df_train_link, df_gaz = load_corpus_data(args.corpus_path, args.corpus)
+
     prepare_model(args, df_gaz, df_train_link, logger)
     df_hard_triplets = generate_triplets(args, df_train_link, logger)
     train_cross_encoder(args, df_hard_triplets, logger)
