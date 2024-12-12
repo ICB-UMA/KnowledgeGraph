@@ -1,0 +1,764 @@
+filename	label	span_ini	span_end	term	code	sem_rel	is_abbrev	is_composite	need_context
+S0004-06142006000500002-2	SINTOMA	819	851	a nivel hepático varias imágenes	442684004	EXACT	False	False	True
+es-S1130-01082008001000008-1	SINTOMA	245	291	abombamiento de todo el recto anterior derecho	871692005	NARROW	False	False	True
+es-S0210-48062009000400015-2	SINTOMA	35	46	accidentado	417746004	EXACT	False	False	True
+es-S1139-76322016000300016-2	SINTOMA	688	709	acidosis respiratoria	12326000	EXACT	False	False	False
+es-S1130-63432014000500008-1	SINTOMA	1999	2026	acortándose el intervalo QT	77867006	EXACT	False	False	False
+es-S0376-78922007000300006-3	SINTOMA	261	292	actitud en semiflexión del dedo	424478004	EXACT	False	False	True
+es-S0365-66912007000100010-1	SINTOMA	1623	1650	actividad a nivel orbitario	246912006	NARROW	False	False	True
+es-S0376-78922009000300005-1	SINTOMA	425	449	actividad sexual regular	228453005	EXACT	False	False	False
+es-S0212-71992005000600008-1	SINTOMA	2190	2245	acúmulos hipercaptantes en esqueleto axial y periférico	88230002	NARROW	False	False	False
+es-S0210-48062006000400012-1	SINTOMA	1358	1390	adecuado desarrollo pondoestural	23397005	NARROW	False	False	False
+es-S0365-66912012000800005-1	SINTOMA	978	1006	adelgazamiento en ambos ojos	128127008	NARROW	False	False	True
+es-S1130-01082005001200011-1	SINTOMA	2510	2541	afectación de la memoria visual	9236007	NARROW	False	False	True
+es-S0365-66912012000300005-1	SINTOMA	1618	1661	afectación del tercio inferior de la vagina	25658005	NARROW	False	False	False
+es-S0211-57352013000300011-1	SINTOMA	3551	3569	afectación frontal	129606007	EXACT	False	False	True
+es-S0211-57352013000300011-1	SINTOMA	1512	1577	afectación izquierda temporoparietal que se rodea de amplio edema	195216008	NARROW	False	False	True
+es-S0365-66912012000300005-1	SINTOMA	855	880	afectación macular en ojo	312999006	EXACT	False	False	False
+es-S1137-66272010000400007-1	SINTOMA	2051	2095	afectaciones renales eran de tipo glomerular	197679002	EXACT	False	False	False
+es-S0210-48062004000200011-1	SINTOMA	3188	3210	agregación plaquetaria	117294002	EXACT	False	False	False
+es-S0211-57352013000300011-1	SINTOMA	2461	2479	aislamiento social	422650009	EXACT	False	False	True
+es-S1139-76322016000400018-1	SINTOMA	484	504	alcalosis metabólica	1388004	EXACT	False	False	False
+es-S0376-78922008000400008-1	SINTOMA	1781	1793	aleteo nasal	248568003	EXACT	False	False	False
+es-S1134-80462015000500005-1	SINTOMA	733	749	alodinia cutánea	403597003	EXACT	False	False	False
+es-S0210-48062009000200019-1	SINTOMA	1621	1648	alteración a nivel colónico	128524007	EXACT	False	False	False
+es-S0365-66912007000900016-1	SINTOMA	1567	1626	alteración del epitelio pigmentario retiniano (EPR) macular	421689001	EXACT	True	False	False
+es-S0211-69952016000600552-1	SINTOMA	2782	2840	alteración en el control de movimientos de la mano derecha	15929741000119101	NARROW	False	False	False
+es-S1137-66272014000200013-1	SINTOMA	1093	1111	alteración nodular	129733003	EXACT	False	False	True
+es-S1137-66272016000300010-1	SINTOMA	1283	1333	alteraciones de la repolarización, despolarización	44808001	NARROW	False	False	False
+es-S0212-71992008000700009-1	SINTOMA	1049	1069	alteraciones del ojo	371405004	EXACT	False	False	False
+es-S1134-80462009000500006-1	SINTOMA	1000	1022	alteraciones del sueño	39898005	EXACT	False	False	False
+es-S1137-66272009000500016-1	SINTOMA	1786	1833	alteraciones en hígado, bazo, vejiga ni riñones	249561001	NARROW	False	False	False
+es-S1130-63432014000500008-1	SINTOMA	483	516	alteraciones en la repolarización	44808001	NARROW	False	False	False
+es-S1134-80462005000100007-1	SINTOMA	963	996	alteraciones en la repolarización	44808001	NARROW	False	False	False
+es-S1699-695X2015000300013-1	SINTOMA	692	736	alteraciones en los reflejos osteotendinosos	46670006	EXACT	False	False	False
+es-S1130-63432014000500008-1	SINTOMA	655	700	alteraciones muy difusas en la repolarización	44808001	NARROW	False	False	False
+es-S1137-66272016000300010-1	SINTOMA	1415	1456	alteraciones pleuroparenquimatosas agudas	60485005	EXACT	False	False	True
+es-S0211-57352013000300011-1	SINTOMA	2433	2459	alucinaciones cenestésicas	85550003	EXACT	False	False	False
+es-S0212-71992004001100006-1	SINTOMA	1125	1157	alucinaciones visuales complejas	64269007	NARROW	False	False	False
+es-S0376-78922008000400008-1	SINTOMA	3581	3647	ambas córneas se apreció una nata fibrosa por esfacelación corneal	91514001	NARROW	False	False	False
+es-S0376-78922008000400008-1	SINTOMA	4479	4513	Ambos párpados mostraron sinequias	246829005	EXACT	False	False	True
+es-S1698-44472004000400011-1	SINTOMA	1940	1952	ameloblastos	20462008	EXACT	False	False	True
+es-S1887-85712016000100005-1	SINTOMA	1375	1414	Anestesia y parálisis total del miembro	86022000	NARROW	False	False	True
+es-S0365-66912012000700004-1	SINTOMA	417	458	anillo perimacular de puntos blanquecinos	414639009	NARROW	False	False	False
+es-S0211-57352013000300011-1	SINTOMA	2509	2526	ánimo hipertímico	30819006	NARROW	False	False	False
+es-S0376-78922016000200011-1	SINTOMA	1816	1850	anomalías en el parénquima mamario	129792006	EXACT	False	False	True
+es-S0365-66912007001000008-1	SINTOMA	1529	1553	anomalías epileptiformes	43400009	EXACT	False	False	False
+es-S0378-48352004001000003-1	SINTOMA	1179	1187	antiHBs-	406117000	EXACT	False	False	False
+es-S1130-01082009000200016-1	SINTOMA	691	741	apéndice de tamaño normal y ligeramente congestivo	8744003	NARROW	False	False	False
+es-S1135-76062005000100002-1	SINTOMA	2577	2643	aplanamiento del hemisferio derecho, sobre todo del lóbulo frontal	195217004	NARROW	False	False	True
+es-S1888-75462015000400006-1	SINTOMA	1245	1297	apoyo monopodal alterno derecho-izquierdo es estable	282300003	NARROW	False	False	True
+es-S0376-78922007000300006-3	SINTOMA	439	501	área hipoecogénica alrededor del tendón flexor del dedo índice	116311003	NARROW	False	False	False
+es-S1135-76062010000300006-1	SINTOMA	638	708	área parduzca de 0,5 x 1 cm en la corteza cerebral del lóbulo parietal	128128003	NARROW	False	False	False
+es-S0365-66912007001200011-1	SINTOMA	742	788	arquitectura normal de las empalizadas de Vogt	392315004	EXACT	False	False	True
+es-S1699-695X2015000200010-1	SINTOMA	1327	1430	articulaciones metacarpo-falángicas, interfalángicas proximales e interfalángicas distales están libres	299061005	NARROW	False	False	False
+es-S0376-78922011000100010-1	SINTOMA	612	640	asimetría de crestas ilíacas	299661006	EXACT	False	False	False
+es-S1130-01082007000100009-1	SINTOMA	1015	1070	aspecto mucoso en empedrado en recto y colon transverso	128524007	NARROW	False	False	False
+es-S0212-16112010000100017-1	SINTOMA	2335	2350	aspecto quiloso	23839001	EXACT	False	False	True
+es-S0365-66912005001100009-2	SINTOMA	275	323	atalamia con contacto iridoendotelial periférico	371405004	NARROW	False	False	False
+es-S0365-66912005001100009-2	SINTOMA	394	417	atalamia con hipertonía	371405004	NARROW	False	False	True
+es-S1135-76062013000200010-1	SINTOMA	398	404	atonía	19532005	EXACT	False	False	False
+es-S0211-57352011000400009-1	SINTOMA	2725	2750	atrofia cortical moderada	278849000	NARROW	False	False	False
+es-S1137-66272009000500016-1	SINTOMA	2136	2149	aumento de BT	176271000119108	EXACT	True	False	True
+es-S0004-06142008000300012-1	SINTOMA	2292	2341	aumento de calibre de vena porta y suprahepáticas	161991006	NARROW	False	False	False
+es-S1130-01082010000700014-1	SINTOMA	1208	1247	aumento de eosinófilos en lámina propia	417967008	NARROW	False	False	False
+es-S1130-01082008001000008-1	SINTOMA	371	436	aumento de la atenuación y volumen del recto anterior del abdomen	871692005	NARROW	False	False	False
+es-S0210-48062004000200011-1	SINTOMA	735	787	aumento de la consistencia del epidídimo y del teste	249230006	NARROW	False	False	False
+es-S0211-57352011000400009-1	SINTOMA	3989	4023	aumento de la osmolaridad urinaria	167244000	EXACT	False	False	False
+es-S0365-66912004000900009-1	SINTOMA	852	902	aumento de la resistencia a la proteína c activada	421527008	EXACT	False	False	True
+es-S0212-71992008000700009-1	SINTOMA	1092	1154	aumento de volumen de la parte derecha de la cara y del cuello	274755005	EXACT	False	False	False
+es-S1130-05582008000400004-1	SINTOMA	820	875	aumento del tamaño de la glándula paratiroidea inferior	9092004	NARROW	False	False	False
+es-S0211-69952009000600023-1	SINTOMA	444	526	aumento difuso de la fijación del lóbulo paratiroideo inferior izquierdo y derecho	73132005	NARROW	False	False	True
+es-S0365-66912012000800005-1	SINTOMA	497	550	aumento marcado de la excavación papilar en ambos ojo	890396001	EXACT	False	False	True
+es-S0376-78922016000200011-1	SINTOMA	1485	1513	aumento paulatino de la mama	366346006	NARROW	False	False	True
+S0004-06142007000600012-1	SINTOMA	167	219	aumento progresivo de los órganos genitales externos	300479008	NARROW	False	False	False
+es-S1139-76322017000100010-1	SINTOMA	289	293	aura	18618006	EXACT	False	False	False
+es-S1137-66272011000300024-1	SINTOMA	2391	2428	Ausencia de cuerpo y cola pancreática	204806003	EXACT	False	False	True
+es-S0210-56912008000400007-3	SINTOMA	782	806	ausencia de pulso radial	301165004	EXACT	False	False	False
+es-S1699-695X2015000200010-1	SINTOMA	1148	1167	BA de codo completo	304299008	EXACT	True	False	True
+es-S1130-01082008000300010-1	SINTOMA	1203	1235	Bacteriología de esputo negativa	167987009	NARROW	False	False	False
+es-S1699-695X2015000200010-1	SINTOMA	803	854	balance articular (BA) de las muñecas era simétrico	299016006	EXACT	True	False	False
+es-S0212-71992004001100006-1	SINTOMA	1971	1998	balance motor era simétrico	298312007	EXACT	False	False	False
+es-S0378-48352006000300005-1	SINTOMA	1722	1753	banda minimonoclonal IgM lambda	285426000	NARROW	False	False	False
+es-S1130-01082007001100010-1	SINTOMA	379	393	bazo homogéneo	300563005	NARROW	False	False	False
+es-S1130-01082007001200014-1	SINTOMA	802	887	benzodiazepinas, mianserina, ibuprofeno y ketoprofeno en concentraciones terapéuticas	494716691000132104	NARROW	False	False	False
+es-S1135-76062005000100002-1	SINTOMA	4402	4416	bolas axonales	106144008	NARROW	False	False	True
+es-S0004-06142008000500009-1	SINTOMA	813	845	borramiento de la línea de psoas	609624008	NARROW	False	False	True
+es-S0376-78922009000100014-1	SINTOMA	123	153	brazo izquierdo. La tumoración	309525008	EXACT	False	False	False
+es-S0378-48352006000300005-1	SINTOMA	577	594	broncograma aéreo	1217293003	EXACT	False	False	False
+es-S1137-66272007000500016-1	SINTOMA	1295	1330	brote oligoarticular incapacitante,	250098005	EXACT	False	False	False
+es-S0211-69952016000600552-1	SINTOMA	3535	3609	brotes de actividad paroxística [ondas theta] en región temporal izquierda	251496007	NARROW	False	False	False
+es-S0211-69952016000600552-1	SINTOMA	3711	3758	brotes paroxísticos bilaterales de ondas agudas	251479006	NARROW	False	False	False
+es-S1887-85712016000100005-1	SINTOMA	3174	3208	buen estado vasculonervioso distal	1148973008	EXACT	False	False	False
+es-S0210-48062009000400015-2	SINTOMA	775	806	buena curación de las fracturas	125163009	NARROW	False	False	False
+es-S0004-06142008000300012-1	SINTOMA	2837	2862	buena función ventricular	371859008	NARROW	False	False	True
+es-S0212-71992004001100006-1	SINTOMA	2598	2620	CA 15,3 estaba elevado	396701002	NARROW	False	False	False
+es-S1888-75462015000400006-1	SINTOMA	1912	1958	cabeza femoral presenta un pequeño islote óseo	879910002	NARROW	False	False	True
+es-S1135-76062013000200010-1	SINTOMA	1765	1797	cadáver muy pálido con livideces	56430004	EXACT	False	False	False
+es-S1137-66272010000400007-1	SINTOMA	1964	1982	cadmio en la orina	441811002	NARROW	False	False	False
+es-S1137-66272010000400007-1	SINTOMA	1896	1912	cadmio en sangre	274891006	NARROW	False	False	False
+es-S1130-01082005001200011-1	SINTOMA	1819	1836	caídas frecuentes	279992002	EXACT	False	False	False
+es-S1134-80462014000500004-1	SINTOMA	1375	1448	calcificaciones groseras en tejidos de partes blandas de cavidad torácica	280129003	NARROW	False	False	False
+es-S1134-80462014000500004-1	SINTOMA	1568	1705	calcificaciones musculares en territorio pectoral, periescapular, dorsal, paravertebral y fundamentalmente en territorio glúteo izquierdo	446993003	NARROW	False	False	False
+es-S0211-69952009000600023-1	SINTOMA	2037	2086	Campimetría: fuera de límites normales para el OD	19900004	NARROW	True	False	True
+es-S0376-78922008000400008-1	SINTOMA	1576	1612	capa blanquecina en lengua y faringe	300243002	NARROW	False	False	False
+es-S0212-16112010000100017-1	SINTOMA	1253	1281	capacidad funcional reducida	8510008	EXACT	False	False	True
+es-S0211-69952012000500025-1	SINTOMA	539	618	cara anterior del antebrazo izquierdo presentaba una enorme tumoración pulsátil	448928006	NARROW	False	False	False
+es-S1130-01082007001100009-1	SINTOMA	685	748	cara lateral izquierda de la ampolla rectal un área eritematosa	249632006	NARROW	False	False	False
+es-S0210-48062007000300014-1	SINTOMA	141	181	caracteres sexuales secundarios normales	472992004	EXACT	False	False	False
+es-S0210-48062009000600012-1	SINTOMA	3197	3228	cariotipo con resultado de 46XY	734876009	EXACT	False	False	False
+es-S0210-48062007000300014-1	SINTOMA	2025	2041	Cariotipo: 46,XY	734876009	EXACT	False	False	False
+es-S0210-56912008000200007-1	SINTOMA	1827	1874	catéter peritoneal (crecimiento de C. albicans)	430958003	NARROW	False	False	True
+es-S1139-76322017000100010-1	SINTOMA	115	133	cefalea bitemporal	41413006	EXACT	False	False	False
+es-S0212-71992004001100006-1	SINTOMA	195	234	cefalea localizada en cara y hemicráneo	162300006	EXACT	False	False	False
+es-S1137-66272016000200010-1	SINTOMA	1115	1146	células gigantes multinucleadas	60401004	EXACT	False	False	False
+es-S0212-71992004001100006-1	SINTOMA	3760	3783	células malignas en LCR	230156002	EXACT	True	False	True
+es-S1137-66272013000100023-1	SINTOMA	2003	2022	células neoplásicas	88400008	EXACT	False	False	True
+es-S0376-78922008000400008-1	SINTOMA	2891	2898	Cetonas	167288007	EXACT	False	False	True
+es-S1130-01082007001100010-2	SINTOMA	140	216	cifras de amonio durante el ingreso se mantuvieron persistentemente elevadas	9360008	EXACT	False	False	False
+es-S1130-01082007001100010-1	SINTOMA	733	775	cifras de amonio persistentemente elevadas	9360008	EXACT	False	False	False
+es-S1130-01082008000200010-1	SINTOMA	1782	1852	circulación colateral en los ligamentos gastrohepático y periesplénico	128052008	NARROW	False	False	True
+es-S1698-69462006000100003-1	SINTOMA	585	615	circunferencia craneana grande	248374004	EXACT	False	False	True
+es-S0210-48062005000400012-1	SINTOMA	958	1002	citología fue positiva para células malignas	309307000	NARROW	False	False	False
+es-S0212-71992000001200006-1	SINTOMA	1719	1750	CMV en cultivo celular de orina	168208008	NARROW	True	False	True
+es-S0212-71992000001200006-1	SINTOMA	1622	1656	CMV en cultivo de biopsia de colon	235749000	EXACT	True	False	True
+es-S1130-14732005000300004-1	SINTOMA	1489	1517	colapsa la arteria vertebral	90520006	NARROW	False	False	True
+es-S0376-78922009000400011-1	SINTOMA	995	1026	colección de material purulento	128477000	EXACT	False	False	False
+es-S1130-14732005000600009-1	SINTOMA	738	816	colección polilobulada, intrarraquídea, extradural que comprimía el saco dural	299736000	NARROW	False	False	True
+es-S0004-06142008000300013-1	SINTOMA	1275	1281	cólico	162504001	EXACT	False	False	False
+es-S1888-75462015000400006-1	SINTOMA	2107	2134	collar osteofitario femoral	271092002	NARROW	False	False	False
+es-S1137-66272012000100017-1	SINTOMA	2080	2114	colonias de color amarillo pálidas	84324009	NARROW	False	False	False
+es-S1137-66272012000300023-1	SINTOMA	1241	1346	colonoscopia en la que se observaron restos hemáticos por todo el trayecto explorado hasta 15 cm de ileon	313172000	NARROW	False	False	False
+es-S1139-76322009000100006-1	SINTOMA	979	1002	complejos QRS estrechos	28630001	EXACT	False	False	False
+es-S1139-76322016000400018-1	SINTOMA	2285	2335	compresión extrínseca 2 cm por encima de la carina	69061003	NARROW	False	False	True
+es-S1130-05582003000600004-2	SINTOMA	1543	1574	compromiso del cornete inferior	249355003	NARROW	False	False	False
+es-S0211-69952009000600023-1	SINTOMA	1917	1963	compromisos de la vía óptica de grado moderado	54767005	NARROW	False	False	True
+es-S1135-76062013000100008-1	SINTOMA	1668	1740	concentraciones subterapéuticas de metoclopramida, ibuprofeno y diazepam	860749004	NARROW	False	False	False
+es-S1134-80462015000200005-1	SINTOMA	2756	2796	Concilió el sueño de forma satisfactoria	314939008	NARROW	False	False	False
+es-S0378-48352006000300005-1	SINTOMA	536	561	condensación paracardiaca	128308005	NARROW	False	False	False
+es-S0211-57352013000300011-1	SINTOMA	3492	3535	conductas verbales socialmente inapropiadas	297265001	EXACT	False	False	False
+es-S0004-06142008000300012-1	SINTOMA	2256	2275	congestión hepática	76281005	EXACT	False	False	False
+es-S0365-66912007001200011-1	SINTOMA	551	577	conjuntivalización corneal	231929005	NARROW	False	False	False
+es-S1137-66272014000200013-1	SINTOMA	2669	2700	conservación del estado general	427868000	EXACT	False	False	True
+es-S1130-01082009000500007-1	SINTOMA	916	962	conservación del reflejo rectoanal inhibitorio	299866004	EXACT	False	False	False
+es-S0365-66912005001100009-1	SINTOMA	1022	1046	contacto iridoendotelial	129623003	EXACT	False	False	True
+es-S1137-66272013000100024-1	SINTOMA	593	627	contenido ecogénico intraarticular	167899003	NARROW	False	False	False
+es-S1135-76062013000100008-1	SINTOMA	1362	1396	contenido gástrico en la vía aérea	278693002	EXACT	False	False	True
+es-S1130-14732006000200011-1	SINTOMA	1898	1946	conteniendo el díploe tejido fibroso cigatricial	713668006	NARROW	False	False	True
+es-S0004-06142008000700003-1	SINTOMA	894	947	contorno débilmente cálcico en pelvis en área vesical	31204009	NARROW	False	False	True
+es-S1137-66272011000300024-1	SINTOMA	311	329	control metabólico	170763003	NARROW	False	False	True
+es-S0376-78922016000200012-1	SINTOMA	2738	2755	convexidad lumbar	424774003	NARROW	False	False	True
+es-S0210-48062004000200011-1	SINTOMA	3233	3294	Coombs directo siendo débilmente positivo a inmunoglobulina G	165773002	NARROW	False	False	False
+es-S1130-01082010000700014-1	SINTOMA	343	367	coprocultivos: negativos	307811009	EXACT	False	False	False
+S0004-06142007000600014-1	SINTOMA	668	725	cordón espermático derecho una imagen de señal baja en T2	300509007	NARROW	False	False	False
+es-S0210-56912008000400007-3	SINTOMA	864	904	correcta localización de la endoprótesis	722810000	NARROW	False	False	False
+es-S1137-66272012000300024-1	SINTOMA	834	870	correctos niveles de anticoagulación	365634009	NARROW	False	False	True
+es-S0212-71992004001100006-1	SINTOMA	3541	3616	cresta iliaca presentó trabéculas artefactadas sin actividad hematopoyética	417735002	NARROW	False	False	True
+es-S0212-71992004001100006-1	SINTOMA	1054	1087	crisis de sacudidas en hemicuerpo	27369003	NARROW	False	False	True
+es-S0376-78922008000400008-1	SINTOMA	2907	2916	Cristales	46784006	EXACT	False	False	True
+es-S1130-14732005000200009-1	SINTOMA	276	317	cuadrantanopsia homónima inferior derecha	894119008	EXACT	False	False	False
+es-S0004-06142008000700003-1	SINTOMA	1340	1367	cuerpo extraño intravesical	211649008	EXACT	False	False	False
+es-S1137-66272011000100013-2	SINTOMA	1141	1191	cultivo de esputo positivo para Aspergillus flavus	13290001000004109	EXACT	False	False	False
+es-S1139-76322016000300008-1	SINTOMA	1817	1855	cultivo de exudado Staphycoccus aureus	406602003	NARROW	False	False	True
+es-S1137-66272011000100013-2	SINTOMA	1412	1447	cultivos positivos para Aspergillus	13290001000004109	EXACT	False	False	True
+es-S1137-66272007000500016-1	SINTOMA	2087	2106	datos inflamatorios	409774005	NARROW	False	False	False
+es-S1888-75462016000400180-1	SINTOMA	1618	1635	D-Dímero positivo	449830004	EXACT	False	False	False
+es-S0376-78922008000400008-1	SINTOMA	5237	5259	deambulación con ayuda	427512004	EXACT	False	False	False
+es-S0365-66912012000800005-1	SINTOMA	1249	1284	defecto arciforme superior en el OD	332131000119107	NARROW	True	False	True
+es-S0365-66912012000800005-1	SINTOMA	1290	1314	defecto central en el OI	677511000119104	NARROW	True	False	True
+es-S1130-05582015000400005-1	SINTOMA	444	473	defecto en la pared abdominal	62991000119101	EXACT	False	False	True
+es-S0365-66912007000200009-1	SINTOMA	594	634	defecto pupilar aferente relativo en ojo	232122003	EXACT	False	False	False
+es-S0376-78922016000200012-1	SINTOMA	2488	2508	déficits funcionales	69701009	NARROW	False	False	True
+es-S1699-695X2015000200010-1	SINTOMA	347	372	deformidad de las muñecas	298945002	EXACT	False	False	False
+es-S1888-75462015000400006-1	SINTOMA	1455	1519	deformidad en forma de joroba en región cérvico-cefálica femoral	271092002	NARROW	False	False	False
+es-S1699-695X2015000200010-1	SINTOMA	625	684	deformidad en la cara dorsal a nivel del estiloides cubital	271088009	NARROW	False	False	False
+es-S1135-76062013000200010-1	SINTOMA	2570	2605	depósito de fibrina intrasinusoidal	16080000	NARROW	False	False	False
+es-S0213-12852005000400003-1	SINTOMA	1624	1639	depósito de IgG	447238007	EXACT	False	False	False
+es-S1137-66272012000300024-1	SINTOMA	1902	1927	derrame pleural bilateral	425802001	EXACT	False	False	False
+es-S1137-66272013000100023-1	SINTOMA	1372	1397	derrame pleural bilateral	425802001	EXACT	False	False	False
+es-S0210-48062004000200011-1	SINTOMA	793	836	desaparición del surco epidídimo testicular	249230006	NARROW	False	False	False
+es-S0211-69952013000200018-1	SINTOMA	1925	1983	descargas bilaterales de ondas lentas, agudas y trifásicas	251479006	NARROW	False	False	False
+es-S1130-01082005001200011-1	SINTOMA	2785	2867	descargas eléctricas en forma de picos-ondas en las regiones centrales del cerebro	251503006	NARROW	False	False	False
+es-S1137-66272009000500016-1	SINTOMA	2793	2807	descenso de BT	124078008	EXACT	True	False	True
+es-S0211-57352013000300011-1	SINTOMA	2205	2246	descompensación de síntomas psiquiátricos	75864003	EXACT	False	False	False
+es-S1130-01082007001100010-1	SINTOMA	1389	1419	descompensación hidrópica leve	59927004	NARROW	False	False	True
+es-S0211-57352011000400009-1	SINTOMA	183	204	desconexión del medio	704426000	NARROW	False	False	True
+es-S1135-76062013000200010-1	SINTOMA	1969	2002	desgarro de la cápsula de Glisson	262795007	EXACT	False	False	False
+es-S1139-76322016000300015-1	SINTOMA	1177	1204	desgarro en base del cordón	373680009	EXACT	False	False	False
+es-S1698-69462006000100006-1	SINTOMA	616	632	desgaste oclusal	10017004	EXACT	False	False	False
+es-S0212-71992004001100006-1	SINTOMA	1570	1596	desorientada temporalmente	19657006	EXACT	False	False	False
+es-S1698-69462006000100006-1	SINTOMA	120	141	despertares nocturnos	67233009	EXACT	False	False	False
+es-S1134-80462009000200004-1	SINTOMA	841	913	desplazamiento caudal de las amígdalas cerebelosas por el orificio magno	414400006	EXACT	False	False	False
+es-S1130-01082009000500007-1	SINTOMA	689	736	desplazamiento de todos los órganos abdominales	249561001	NARROW	False	False	True
+es-S1698-44472004000400011-1	SINTOMA	964	1015	desplazamiento lateral de las raíces de los dientes	109677007	NARROW	False	False	False
+es-S1130-05582014000400006-2	SINTOMA	1082	1109	desplazamiento mediastínico	24361006	NARROW	False	False	False
+es-S1130-05582003000600004-2	SINTOMA	1499	1540	destrucción del tabique intersinuso-nasal	80142000	NARROW	False	False	False
+es-S2254-28842014000200009-1	SINTOMA	1222	1253	desviación de la comisura bucal	235106005	NARROW	False	False	False
+es-S0213-12852003000500002-1	SINTOMA	1465	1500	desviación de la línea media dental	1231489009	EXACT	False	False	False
+es-S1130-05582003000600004-2	SINTOMA	349	380	desviación de la pirámide nasal	249316004	EXACT	False	False	False
+es-S0210-56912009000800006-3	SINTOMA	1034	1053	deterioro de la PIC	28073009	NARROW	True	False	True
+es-S1138-123X2006000200007-1	SINTOMA	1216	1270	diapneusia antiestética en la comisura labial inferior	109803005	NARROW	False	False	False
+es-S1130-05582015000400005-1	SINTOMA	63	85	dificultad de fonación	286246003	EXACT	False	False	False
+es-S1887-85712014000100005-1	SINTOMA	152	194	dificultad en la articulación del lenguaje	286279003	EXACT	False	False	False
+es-S1130-14732005000300004-1	SINTOMA	4473	4523	dificultad motora en ambas extremidades superiores	15634971000119107	EXACT	False	False	False
+es-S0365-66912007000100009-1	SINTOMA	260	302	dificultad para abrir los párpados del ojo	366010006	NARROW	False	False	False
+es-S0365-66912006000900010-1	SINTOMA	1391	1433	dificultad para realizar tareas cotidianas	365031000	NARROW	False	False	False
+es-S0212-16112014000300032-1	SINTOMA	1716	1740	dificultad para respirar	230145002	EXACT	False	False	False
+es-S1134-80462005000300004-1	SINTOMA	944	973	dificultades para la erección	276364001	EXACT	False	False	False
+es-S1130-05582015000400005-1	SINTOMA	725	751	dificultades respiratorias	230145002	EXACT	False	False	False
+es-S1130-01082009000400015-1	SINTOMA	429	484	dilatación de las vías biliares intra- y extrahepáticas	1082431000119108	NARROW	False	False	True
+es-S1130-01082009000500007-1	SINTOMA	570	619	dilatación gigante del recto y el colon izquierdo	23298002	NARROW	False	False	False
+es-S0211-69952009000600023-1	SINTOMA	2524	2555	dilatación y tortuosidad venosa	12856003	NARROW	False	False	False
+es-S1134-80462014000500004-1	SINTOMA	4301	4312	disestesias	79151009	EXACT	False	False	False
+es-S1130-14732005000300004-1	SINTOMA	615	658	disestesias en hombro y extremidad superior	298750003	NARROW	False	False	False
+es-S0211-69952014000600016-1	SINTOMA	299	315	disfunción renal	236423003	EXACT	False	False	False
+es-S1130-05582015000400005-1	SINTOMA	2994	3042	disminución considerable del tamaño de la lengua	249380003	NARROW	False	False	False
+es-S0004-06142008000400011-2	SINTOMA	430	459	disminución de flujo vascular	21762000	EXACT	False	False	False
+es-S1130-05582014000400006-2	SINTOMA	1004	1077	disminución de la luz de las vías aéreas de la región cervical y torácica	248554005	NARROW	False	False	True
+es-S0211-57352011000400009-1	SINTOMA	4040	4080	disminución de la osmolaridad plasmática	267447008	EXACT	False	False	False
+es-S1887-85712016000100005-1	SINTOMA	1309	1338	Disminución de la temperatura	71200009	NARROW	False	False	True
+es-S1139-76322016000400018-1	SINTOMA	2518	2550	disminución del calibre traqueal	233786002	EXACT	False	False	False
+es-S0211-69952009000600023-1	SINTOMA	1581	1613	dismuncion moderada de la visión	397542006	EXACT	False	False	False
+es-S0212-71992005000500009-1	SINTOMA	113	130	dísnea progresiva	230145002	EXACT	False	False	False
+es-S0212-71992005000600008-1	SINTOMA	2079	2105	distensión aérea abdominal	271835004	EXACT	False	False	False
+es-S1888-75462015000400006-1	SINTOMA	1874	1907	distensión de la bursa ilio-psoas	726220000	NARROW	False	False	False
+es-S0376-78922008000400008-1	SINTOMA	1681	1690	distermia	103002009	EXACT	False	False	False
+es-S1130-14732005000300004-1	SINTOMA	1420	1449	distorsión del cordón medular	76107001	NARROW	False	False	True
+es-S1130-14732005000300004-1	SINTOMA	1616	1657	distorsiona la musculatura laterocervical	298391004	EXACT	False	False	True
+es-S0210-48062007000300014-1	SINTOMA	598	628	Distribución de vello androide	247537000	EXACT	False	False	True
+es-S0378-48352004001000003-1	SINTOMA	1249	1265	DNA VHB positivo	165806002	EXACT	True	False	True
+es-S1130-05582009000600004-1	SINTOMA	1148	1173	doble contorno mandibular	724623005	NARROW	False	False	True
+es-S1134-80462009000500006-1	SINTOMA	1127	1145	dolor a la flexión	298255009	NARROW	False	False	False
+es-S1888-75462015000400006-1	SINTOMA	634	675	dolor a la flexión, aducción y rotaciones	298255009	EXACT	False	False	False
+es-S1889-836X2015000200005-2	SINTOMA	690	725	dolor a la movilización del antepié	299513007	NARROW	False	False	False
+es-S1888-75462015000400006-1	SINTOMA	1095	1141	dolor a la palpación en la cintilla iliotibial	299372009	NARROW	False	False	False
+es-S0376-78922007000300006-3	SINTOMA	294	366	dolor a la palpación sobre el trayecto tendinoso flexor del segundo dedo	423417009	NARROW	False	False	False
+es-S0212-71992005000600008-1	SINTOMA	734	778	Dolor a la percusión de la columna vertebral	48926009	NARROW	False	False	False
+es-S1130-01082009000400015-1	SINTOMA	211	252	dolor abdominal localizado en mesogastrio	162046002	EXACT	False	False	False
+es-S1130-01082007001100009-1	SINTOMA	160	170	dolor anal	68653001	EXACT	False	False	False
+es-S0004-06142008000300012-1	SINTOMA	202	240	dolor aumenta con la tos e inspiración	427146008	EXACT	False	False	False
+es-S0376-78922007000300006-3	SINTOMA	369	407	dolor con la extensión pasiva del dedo	299112005	NARROW	False	False	False
+es-S1888-75462015000400006-1	SINTOMA	136	174	dolor con práctica de ejercicio físico	427341007	EXACT	False	False	False
+es-S0376-78922009000300005-1	SINTOMA	839	854	dolor constante	426206001	EXACT	False	False	False
+es-S0004-06142008000500009-1	SINTOMA	267	306	dolor continuo en región iliaca y sacra	703619001	NARROW	False	False	False
+es-S1134-80462005000300004-1	SINTOMA	2315	2360	dolor continuo, de intensidad moderada-severa	426206001	EXACT	False	False	False
+es-S1699-695X2015000200010-1	SINTOMA	234	247	dolor crónico	82423001	EXACT	False	False	False
+es-S1134-80462009000500006-1	SINTOMA	84	111	dolor crónico por lumbalgia	278860009	EXACT	False	False	False
+es-S1130-14732005000300004-1	SINTOMA	4312	4373	dolor en hemifacies izquierda irradiado a extremidad superior	425677008	NARROW	False	False	False
+es-S1139-76322016000300009-1	SINTOMA	676	696	dolor escrotal agudo	722829006	EXACT	False	False	False
+es-S0213-12852003000500002-1	SINTOMA	1162	1204	dolor ha sido resistente a los analgésicos	14040001000004109	EXACT	False	False	False
+es-S0376-78922009000400011-1	SINTOMA	128	152	dolor intenso y quemante	103013007	EXACT	False	False	False
+es-S1137-66272015000200019-2	SINTOMA	585	634	dolor más intenso a la palpación del borde costal	102591006	EXACT	False	False	False
+es-S1889-836X2015000200005-2	SINTOMA	462	486	dolor mecánico en el pie	47933007	NARROW	False	False	False
+es-S1698-69462006000100006-1	SINTOMA	664	691	dolor muscular masticatorio	699682009	EXACT	False	False	False
+es-S1134-80462009000200004-1	SINTOMA	482	497	dolor occipital	297128006	EXACT	False	False	False
+es-S1134-80462009000200004-1	SINTOMA	655	670	dolor occipital	297128006	EXACT	False	False	False
+es-S1888-75462015000400006-1	SINTOMA	1336	1356	dolor para la marcha	428264009	EXACT	False	False	False
+es-S1134-80462014000500004-1	SINTOMA	3228	3260	dolor severo a nivel de escápula	20793008	EXACT	False	False	False
+es-S1134-80462015000500005-1	SINTOMA	85	127	dolor tipo escozor en la zona del omóplato	20793008	EXACT	False	False	False
+es-S1887-85712016000100005-1	SINTOMA	466	486	dolor torácico agudo	102587001	EXACT	False	False	False
+es-S0376-78922009000300005-1	SINTOMA	369	382	dolor vaginal	38343000	EXACT	False	False	False
+es-S1887-85712016000100005-1	SINTOMA	885	994	dolor y formación de hematoma en cara volar de antebrazo derecho en relación a zona de punción de cateterismo	774133001	NARROW	False	False	False
+es-S0376-78922007000300006-3	SINTOMA	77	114	dolor y tumefacción en el dedo índice	299060006	EXACT	False	False	False
+es-S1887-85712016000100005-1	SINTOMA	1142	1192	Dolor, exacerbado con la extensión pasiva de dedos	299072000	EXACT	False	False	False
+es-S0213-12852006000600002-1	SINTOMA	4448	4469	dolores generalizados	82991003	EXACT	False	False	False
+es-S0365-66912007000200011-1	SINTOMA	589	622	drusas duras en el polo posterior	420501001	EXACT	False	False	False
+es-S0365-66912007000200009-1	SINTOMA	771	807	drusas duras sobre arcadas vasulares	420501001	EXACT	False	False	False
+es-S1135-76062005000100002-1	SINTOMA	3813	3870	duramadre estaba fuertemente adherida a la calota craneal	193071004	NARROW	False	False	False
+es-S1137-66272013000100024-1	SINTOMA	534	589	ecografía de caderas con distensión de cápsula articula	118935006	NARROW	False	False	False
+es-S1130-01082009000500007-1	SINTOMA	483	519	ecografía ginecológica, son normales	1157297002	NARROW	False	False	False
+es-S0212-71992008000700009-1	SINTOMA	363	385	edema de la conjuntiva	84178004	EXACT	False	False	False
+es-S0376-78922009000400011-1	SINTOMA	832	856	edema de tejidos blandos	95322002	NARROW	False	False	False
+es-S1889-836X2015000200005-2	SINTOMA	970	994	edema de tejidos blandos	95322002	NARROW	False	False	False
+es-S1888-75462015000400006-1	SINTOMA	2226	2259	edema en acetábulo anterosuperior	118935006	NARROW	False	False	True
+es-S0376-78922008000400008-1	SINTOMA	1923	1937	edema laríngeo	51599000	EXACT	False	False	False
+es-S0365-66912010000700004-1	SINTOMA	404	427	edema macular bilateral	15639231000119102	EXACT	False	False	False
+es-S0365-66912010000700004-1	SINTOMA	917	954	edema macular difuso severo bilateral	15639231000119102	EXACT	False	False	False
+es-S0004-06142008000300012-1	SINTOMA	2394	2410	edema periportal	76281005	NARROW	False	False	False
+es-S0212-71992000001200006-1	SINTOMA	2164	2180	edema vasogénico	230759001	EXACT	False	False	True
+es-S1888-75462016000400180-1	SINTOMA	1035	1069	edematización del miembro superior	102558002	EXACT	False	False	False
+es-S0211-69952013000200019-2	SINTOMA	516	545	edematización inguinoescrotal	88995000	NARROW	False	False	False
+es-S0365-66912007000200011-1	SINTOMA	1111	1187	electrooculograma siendo su resultado dentro de los límites de la normalidad	1231193005	EXACT	False	False	False
+es-S2340-98942015000100005-1	SINTOMA	413	432	elevación de CA 125	432519008	EXACT	False	False	False
+es-S1130-01082010000200011-1	SINTOMA	2658	2691	elevación de enzimas pancreáticas	443828007	EXACT	False	False	False
+es-S1137-66272009000500016-1	SINTOMA	1947	1969	elevación del amoniaco	9360008	EXACT	False	False	False
+es-S0210-48062004000200011-1	SINTOMA	1056	1081	elevación del fibrinógeno	123791008	EXACT	False	False	False
+es-S1130-05582015000400005-1	SINTOMA	151	167	elevada estatura	248328003	EXACT	False	False	False
+es-S0213-12852006000600002-1	SINTOMA	2265	2302	en la zona incisal, una protuberancia	235013007	NARROW	False	False	True
+es-S0210-48062009000200019-1	SINTOMA	1524	1562	enema opaco, que no aporta información	168838006	EXACT	False	False	False
+es-S0365-66912007000900010-1	SINTOMA	908	940	engrosamiento de la pared ocular	422272001	NARROW	False	False	True
+es-S0211-69952012000700028-1	SINTOMA	2414	2449	engrosamiento de pliegues gástricos	29384001	NARROW	False	False	True
+es-S0004-06142008000300012-1	SINTOMA	1934	1969	engrosamiento de pliegues gástricos	29384001	NARROW	False	False	False
+es-S1134-80462009000200004-1	SINTOMA	917	953	engrosamiento difuso de las meninges	15758002	NARROW	False	False	False
+es-S1137-66272016000200010-1	SINTOMA	701	754	engrosamiento en la pared de ciego y colon ascendente	128524007	NARROW	False	False	False
+es-S0365-66912007000900010-1	SINTOMA	1284	1384	engrosamiento escleral de aspecto nodular que captaba el contraste en la zona postero-interna del OI	16000031000119101	NARROW	True	False	False
+es-S0365-66912012000500003-1	SINTOMA	790	819	engrosamiento escleral difuso	33064008	NARROW	False	False	False
+es-S1134-80462009000200004-1	SINTOMA	1450	1472	engrosamiento meníngeo	15758002	NARROW	False	False	False
+es-S0212-71992004001100006-1	SINTOMA	2718	2795	engrosamiento meníngeo-dural disperso más marcado en región frontal izquierda	15758002	NARROW	False	False	False
+es-S0211-69952015000600014-2	SINTOMA	540	564	engrosamiento peritoneal	95550001	EXACT	False	False	True
+es-S0365-66912012000500003-1	SINTOMA	1708	1736	enrojecimiento de ambos ojos	12241791000119109	EXACT	False	False	False
+es-S1137-66272012000100017-1	SINTOMA	481	529	enrojecimiento en la zona de extracción dentaria	110342004	NARROW	False	False	False
+es-S1130-05582010000200004-1	SINTOMA	2053	2103	episodio inflamatorio fistulizado en hemimandíbula	714751007	NARROW	False	False	False
+es-S1134-80462014000500004-1	SINTOMA	2765	2784	episodios dolorosos	39565009	EXACT	False	False	False
+es-S0210-48062007000300014-1	SINTOMA	340	360	Erecciones matutinas	248772002	EXACT	False	False	False
+es-S1130-14732005000300004-1	SINTOMA	1765	1797	erosión de la masa lateral de C2	262522002	NARROW	False	False	False
+es-S1130-14732005000300004-1	SINTOMA	1246	1336	erosión de la masa lateral del axis, así como de la articulación interapofisaria posterior	410730009	NARROW	False	False	False
+es-S0376-78922008000400008-1	SINTOMA	2010	2058	esfácelo de la epidermis, principalmente en cara	360493007	EXACT	False	False	False
+es-S0376-78922008000400008-1	SINTOMA	2081	2229	esfácelo de mucosa de carrillos y dorso-lingual, de tórax anterior y posterior, porción superior de abdomen, porción superior de ambos brazos y pene	247440002	NARROW	False	False	True
+es-S0376-78922011000500012-1	SINTOMA	2131	2140	esfacelos	13924000	NARROW	False	False	False
+es-S0376-78922011000500012-1	SINTOMA	2597	2606	esfacelos	13924000	NARROW	False	False	False
+es-S0376-78922011000500012-1	SINTOMA	1423	1432	esfacelos	13924000	NARROW	False	False	False
+es-S0212-71992000001200006-1	SINTOMA	872	891	esfínter conservado	249641001	EXACT	False	False	True
+es-S0365-66912007000900010-1	SINTOMA	973	1031	espacio extra-escleral se observaba una zona hipoecogénica	246973008	NARROW	False	False	True
+es-S0365-66912007000900010-1	SINTOMA	2773	2787	espasmo ciliar	95715007	EXACT	False	False	False
+es-S0212-71992005000400007-1	SINTOMA	703	732	esplenomegalia a la palpación	249572006	EXACT	False	False	False
+es-S1135-76062005000100002-1	SINTOMA	4419	4430	espongiosis	6609001	EXACT	False	False	False
+es-S1137-66272016000200010-1	SINTOMA	1498	1530	esputos, que no eran bacilíferos	167987009	EXACT	False	False	False
+es-S2254-28842014000200009-1	SINTOMA	875	888	esquistocitos	385472000	EXACT	False	False	False
+es-S0212-16112010000600024-1	SINTOMA	2675	2692	estado caquéctico	29740003	EXACT	False	False	False
+es-S0213-12852006000600002-1	SINTOMA	3723	3752	estado general muy deficiente	135819008	EXACT	False	False	False
+es-S1130-01082007000400010-1	SINTOMA	164	175	esteatorrea	66187002	EXACT	False	False	False
+es-S1130-63432014000500008-1	SINTOMA	1559	1582	estenosis angiográficas	726490008	EXACT	False	False	False
+es-S0376-78922008000400008-1	SINTOMA	1646	1666	estertores roncantes	47525004	EXACT	False	False	False
+es-S0212-16112011000300031-1	SINTOMA	2555	2601	estómago con morfología y vaciamiento normales	300305002	EXACT	False	False	False
+es-S1135-76062014000100006-1	SINTOMA	1056	1111	estómago, de aspecto hiperémico, retráctil, con nódulos	29384001	NARROW	False	False	True
+es-S1139-76322016000400018-1	SINTOMA	778	813	estridor de predominio inspiratorio	58596002	EXACT	False	False	False
+es-S1698-44472004000400011-1	SINTOMA	900	922	estructuras radiopacas	128308005	EXACT	False	False	False
+es-S1139-76322016000400018-1	SINTOMA	1724	1780	estructuras supraglóticas y las cuerdas vocales íntegras	301222005	EXACT	False	False	False
+es-S0210-48062009000200019-1	SINTOMA	2061	2129	estudio anátomo-patológico intraoperatorio, descartándose malignidad	165131004	EXACT	False	False	False
+es-S0210-48062007000300014-1	SINTOMA	998	1036	estudio de fertilidad sin alteraciones	300551000	NARROW	False	False	True
+es-S0213-12852005000400003-1	SINTOMA	1277	1305	exacerbación de las lesiones	300578003	NARROW	False	False	True
+es-S1134-80462005000300004-1	SINTOMA	3480	3504	exacerbaciones dolorosas	1144586002	EXACT	False	False	True
+es-S1139-76322009000100006-1	SINTOMA	114	129	exantema facial	121000119106	NARROW	False	False	False
+es-S0211-69952013000200018-1	SINTOMA	1648	1661	excitabilidad	102893002	EXACT	False	False	False
+es-S1699-65852007000300003-1	SINTOMA	340	375	exfoliado el canino superior caduco	109536003	NARROW	False	False	False
+es-S0376-78922015000400012-1	SINTOMA	365	404	exploración neurovascular distal normal	1148973008	EXACT	False	False	False
+es-S0376-78922009000100005-1	SINTOMA	150	219	exposición de la placa de osteosíntesis en el tercio distal del radio	429353004	NARROW	False	False	True
+es-S1139-76322016000300008-1	SINTOMA	908	949	expulsión espontánea de pus en el ombligo	35745008	NARROW	False	False	False
+es-S0365-66912004001000008-1	SINTOMA	1077	1098	extensión extraocular	370054008	NARROW	False	False	True
+es-S1137-66272014000200011-1	SINTOMA	2525	2548	extensión extratiroidea	370054008	NARROW	False	False	True
+es-S1137-66272016000300010-1	SINTOMA	1117	1151	Extremidades inferiores sin edemas	116312005	NARROW	False	False	False
+es-S0211-57352013000300011-1	SINTOMA	265	277	extrovertida	224954004	EXACT	False	False	False
+es-S1139-76322016000300008-1	SINTOMA	308	340	exudado purulento por el ombligo	35745008	EXACT	False	False	False
+es-S0365-66912012000500003-1	SINTOMA	691	709	exudados lipídicos	247131008	EXACT	False	False	True
+S0004-06142006000500002-2	SINTOMA	67	87	eyaculación dolorosa	50818007	EXACT	False	False	False
+es-S1698-69462006000100003-1	SINTOMA	673	690	fascies adenoidea	38138003	EXACT	False	False	False
+es-S0210-48062007000300014-1	SINTOMA	500	522	fascies característica	248196002	EXACT	False	False	False
+es-S0213-12852013000400006-1	SINTOMA	784	802	fenómeno de Tullio	278469000	EXACT	False	False	False
+es-S0376-78922009000300005-1	SINTOMA	3382	3416	fisura junto a la comisura vaginal	289517005	NARROW	False	False	False
+es-S0376-78922009000300005-1	SINTOMA	3930	3962	fisuras en la comisura posterior	289517005	NARROW	False	False	True
+es-S0365-66912012000500003-1	SINTOMA	830	859	fluido en la cápsula de Tenon	371405004	NARROW	False	False	False
+es-S1130-01082007001100010-1	SINTOMA	1055	1092	flujo hepatófugo en la vena esplénica	234131004	NARROW	False	False	False
+es-S1130-01082007001100010-1	SINTOMA	1011	1034	flujo portal hepatópeto	446634009	NARROW	False	False	True
+es-S1130-14732005000200009-1	SINTOMA	599	701	focos de hiperseñal situados en la cisterna cuadrigémina y en el labio superior de la cisura calcarina	210038008	NARROW	False	False	False
+es-S1137-66272014000200013-1	SINTOMA	493	539	fondo de ojo del OD no presentaba alteraciones	830009009	EXACT	True	False	False
+es-S0365-66912007001000008-1	SINTOMA	2722	2727	foria	14619009	EXACT	False	False	False
+es-S0376-78922012000300010-1	SINTOMA	877	896	formación palpebral	301913002	EXACT	False	False	True
+es-S1134-80462014000500004-1	SINTOMA	2575	2593	formaciones óseas,	36123008	EXACT	False	False	False
+es-S1889-836X2015000400006-1	SINTOMA	1065	1075	fosfaturia	85487008	EXACT	False	False	False
+es-S0376-78922009000100014-1	SINTOMA	268	286	fragilidad cutánea	724850003	EXACT	False	False	False
+es-S0376-78922015000400012-1	SINTOMA	615	713	fragmento dorsal del semilunar se encuentra unido a los huesos del carpo y desplazados dorsalmente	263108000	NARROW	False	False	False
+es-S0376-78922009000400011-1	SINTOMA	875	898	fragmentos radio-opacos	28328005	EXACT	False	False	True
+es-S1888-75462016000400180-1	SINTOMA	1236	1253	frecuencia normal	10675001	EXACT	False	False	False
+es-S1698-69462006000100006-1	SINTOMA	1125	1147	frecuentes despertares	423052008	EXACT	False	False	False
+es-S1134-80462009000500006-1	SINTOMA	275	293	fuga periprotésica	234184000	EXACT	False	False	True
+es-S1134-80462009000500006-1	SINTOMA	2766	2783	fuga perivalvular	234184000	EXACT	False	False	True
+es-S0213-12852003000500002-1	SINTOMA	1505	1541	función mandibular estaba conservada	736706004	EXACT	False	False	False
+es-S0004-06142007000900010-1	SINTOMA	2456	2477	función sexual normal	11512006	EXACT	False	False	False
+es-S0376-78922016000200011-1	SINTOMA	989	1000	galactorrea	78622004	EXACT	False	False	True
+es-S0212-71992008000700009-1	SINTOMA	1792	1827	gasometría arterial fueron normales	167019000	EXACT	False	False	False
+es-S1134-80462009000100005-1	SINTOMA	517	527	gastralgia	1197659000	EXACT	False	False	False
+es-S0376-78922011000100010-1	SINTOMA	191	232	genitales internos con ausencia de vagina	87380008	EXACT	False	False	True
+es-S1130-01082008001000008-1	SINTOMA	218	230	golpe de tos	43025008	EXACT	False	False	False
+es-S2254-28842014000200009-1	SINTOMA	1316	1341	habla con lenguaje normal	286395001	EXACT	False	False	False
+es-S0378-48352004001000003-1	SINTOMA	1171	1177	HBsAg+	165806002	EXACT	False	False	False
+es-S0365-66912007000900011-1	SINTOMA	661	689	hemianopsia homónima derecha	5591009	EXACT	False	False	False
+es-S0365-66912007000900011-1	SINTOMA	1715	1761	hemianopsia homónima derecha en la campimetría	5591009	EXACT	False	False	False
+es-S0211-69952009000600023-1	SINTOMA	1407	1432	hemianopsia nasal derecha	77674003	NARROW	False	False	False
+es-S0210-48062004000200011-1	SINTOMA	686	720	hemiescroto derecho presenta edema	88995000	EXACT	False	False	False
+es-S1130-01082006000900014-1	SINTOMA	1511	1520	hemobilia	66556007	EXACT	False	False	False
+es-S1137-66272009000500016-1	SINTOMA	3171	3205	hígado con arquitectura conservada	300337001	NARROW	False	False	False
+es-S0378-48352004001000003-1	SINTOMA	1330	1353	hígado de tamaño normal	300337001	NARROW	False	False	False
+es-S1130-01082008000200010-1	SINTOMA	1365	1392	hígado era de tamaño normal	300337001	EXACT	False	False	False
+es-S1130-01082006000900014-1	SINTOMA	494	510	hígado homogéneo	300324004	NARROW	False	False	False
+es-S1137-66272009000500016-1	SINTOMA	1700	1733	hígado homogéneo sin alteraciones	300337001	EXACT	False	False	False
+es-S0004-06142008000300012-1	SINTOMA	1487	1537	hígado y vía biliar intra y extrahepática normales	300337001	NARROW	False	False	False
+es-S1137-66272009000500016-1	SINTOMA	650	664	hiperamoniemia	9360008	EXACT	False	False	False
+es-S1137-66272009000500016-1	SINTOMA	131	163	hiperbilirrubinemia no conjugada	7752002	EXACT	False	False	False
+es-S1137-66272012000100017-1	SINTOMA	1002	1058	hipercelularidad con parada madurativa en serie mieloide	167927007	EXACT	False	False	False
+es-S1134-80462015000500005-1	SINTOMA	766	778	hiperestesia	14151009	EXACT	False	False	False
+es-S1134-80462015000500005-1	SINTOMA	682	717	hiperestesia en la región escapular	20793008	NARROW	False	False	False
+es-S0365-66912007000200011-1	SINTOMA	678	706	hiperfluorescencia en anillo	371405004	NARROW	False	False	True
+es-S0376-78922008000400008-1	SINTOMA	303	314	hipertermia	1197782006	EXACT	False	False	False
+es-S0376-78922008000400008-1	SINTOMA	445	456	hipertermia	1197782006	EXACT	False	False	False
+es-S0376-78922007000300006-3	SINTOMA	516	545	hipervascularización sinovial	3519007	NARROW	False	False	False
+es-S1698-44472004000400012-1	SINTOMA	463	529	hipoestesia en el territorio de distribución del nervio mentoniano	95525004	EXACT	False	False	False
+es-S0365-66912007000200011-1	SINTOMA	1643	1678	hipofluorescencia intensa mantenida	118235002	NARROW	False	False	True
+es-S0365-66912012000300005-1	SINTOMA	759	850	hipofluorescencia precoz e hiperfluorescencia tardía variable de las lesiones en ambos ojos	371405004	NARROW	False	False	False
+es-S0212-16112011000300031-1	SINTOMA	2321	2339	hipotonía gástrica	46218001	EXACT	False	False	False
+es-S0211-57352013000300011-1	SINTOMA	2969	2991	hipotonía generalizada	704200007	EXACT	False	False	True
+es-S1889-836X2015000400006-1	SINTOMA	1099	1111	hipouricemia	4519003	EXACT	False	False	False
+es-S0365-66912007000100010-1	SINTOMA	749	796	hormonas tiroideas (T3,T4,TSH) estaban elevadas	131089005	EXACT	True	False	False
+es-S0376-78922009000300005-1	SINTOMA	3603	3634	humedad permanente de la vagina	289598001	EXACT	False	False	False
+es-S0378-48352004001000003-1	SINTOMA	1153	1169	IgM VHA negativo	165996008	NARROW	True	False	True
+S0004-06142006000100014-1	SINTOMA	2097	2143	imagen cálcica en teórica zona de pelvis renal	236710009	NARROW	False	False	False
+es-S0004-06142008000300011-1	SINTOMA	708	726	imagen cicatricial	251768002	NARROW	False	False	False
+es-S0210-48062009000200019-1	SINTOMA	809	865	imagen con nivel líquido de 15 x 9 x 8 cm en hipogastrio	441988000	NARROW	False	False	True
+es-S0210-48062003000900009-1	SINTOMA	807	826	imagen fría central	365853002	NARROW	False	False	False
+es-S0210-48062009000400020-1	SINTOMA	467	512	imagen hipodensa de 3 cm el lóbulo prostático	309089006	NARROW	False	False	False
+es-S0004-06142008000500009-1	SINTOMA	877	913	imagen lobulada de contenido líquido	365853002	NARROW	False	False	False
+es-S1698-44472004000400012-1	SINTOMA	617	689	imagen radiolúcida, de contornos poco definidos, en el cuerpo mandibular	125129007	NARROW	False	False	True
+es-S0365-66912012001100004-5	SINTOMA	449	481	imagen sacular hiperfluorescente	371405004	NARROW	False	False	True
+es-S0004-06142009000400011-1	SINTOMA	657	742	imágenes polipoideas parietales menores de 2-3 cm tanto en vejiga como en divertículo	309248004	EXACT	False	False	False
+es-S1698-44472004000400011-1	SINTOMA	794	843	imágenes radiolúcidas y radiopacas en su interior	365853002	NARROW	False	False	False
+es-S1139-76322016000300015-1	SINTOMA	343	383	implantación amplia del cordón umbilical	90009001	NARROW	False	False	False
+es-S0212-16112014000300032-1	SINTOMA	1118	1147	imposibilidad de ingesta oral	450819000	EXACT	False	False	False
+es-S0210-48062006000700012-1	SINTOMA	373	402	imposibilidad para la micción	102835006	EXACT	False	False	False
+es-S0004-06142009000400011-1	SINTOMA	288	317	imposibilidad para la micción	102835006	EXACT	False	False	False
+S0004-06142007000600012-1	SINTOMA	247	264	impotencia sexual	860914002	EXACT	False	False	False
+es-S1698-69462006000200016-1	SINTOMA	144	183	inadecuada posición del canino inferior	366226004	NARROW	False	False	False
+es-S1130-01082008000500008-1	SINTOMA	967	1010	incapacidad total para la alimentación oral	228155006	EXACT	False	False	False
+es-S1138-123X2004000100006-2	SINTOMA	405	425	incompetencia labial	698195007	EXACT	False	False	True
+es-S1130-01082009000300015-1	SINTOMA	2608	2626	incontinencia anal	72042002	EXACT	False	False	False
+es-S1130-05582014000300006-1	SINTOMA	862	901	incremento metabólico a nivel parotídeo	300257000	NARROW	False	False	False
+es-S0211-57352013000300011-1	SINTOMA	290	303	independiente	718360006	EXACT	False	False	False
+es-S0211-69952012000700028-1	SINTOMA	269	321	independiente para las actividades de la vida diaria	718360006	EXACT	False	False	False
+es-S0376-78922015000400012-1	SINTOMA	983	1009	inestabilidad de la lesión	52776004	EXACT	False	False	True
+es-S1134-80462005000300004-1	SINTOMA	655	675	inestabilidad lumbar	202824000	EXACT	False	False	False
+es-S0376-78922015000400012-1	SINTOMA	1896	1923	inestabilidad radiocarpiana	782430000	EXACT	False	False	False
+es-S0211-69952014000400019-1	SINTOMA	982	994	infantilismo	59892004	EXACT	False	False	False
+es-S1130-01082009000200012-1	SINTOMA	314	369	infiltración y engrosamiento de toda la pared del colon	128524007	NARROW	False	False	False
+es-S0365-66912012000500003-1	SINTOMA	2061	2081	inflamación escleral	78370002	EXACT	False	False	False
+es-S0211-57352011000400009-1	SINTOMA	3324	3346	inhibición psicomotriz	43994002	EXACT	False	False	True
+es-S0211-69952013000200018-1	SINTOMA	1514	1523	inquietud	247910009	EXACT	False	False	False
+es-S0211-69952013000200018-1	SINTOMA	1664	1673	inquietud	247910009	EXACT	False	False	False
+es-S0211-57352013000300011-1	SINTOMA	4544	4559	insight parcial	27026000	NARROW	False	False	False
+es-S0211-57352013000300011-1	SINTOMA	2528	2536	insomnio	62577008	EXACT	False	False	False
+es-S0210-48062005000300014-1	SINTOMA	2244	2252	insomnio	62577008	EXACT	False	False	False
+es-S1130-01082008000900011-1	SINTOMA	1431	1458	integridad del eje vascular	21829004	NARROW	False	False	True
+es-S0211-57352013000300011-1	SINTOMA	305	331	Intelectualmente brillante	367358004	EXACT	False	False	False
+es-S0376-78922009000300005-1	SINTOMA	3718	3754	introito vaginal se mantiene cerrado	161815000	EXACT	False	False	False
+es-S0365-66912007000900010-1	SINTOMA	2909	2925	inyección ciliar	247044000	NARROW	False	False	True
+es-S0365-66912005001100009-1	SINTOMA	482	519	iridectomías se observaban permeables	423552003	EXACT	False	False	False
+es-S0365-66912007000900010-1	SINTOMA	726	739	iris abombado	247025007	NARROW	False	False	False
+es-S1887-85712012000400006-1	SINTOMA	1295	1340	irritación peritoneal en hemiabdomen inferior	300419003	EXACT	False	False	False
+es-S0376-78922009000300005-1	SINTOMA	3760	3814	labios mayores presentan un aspecto juvenil y turgente	289499007	NARROW	False	False	False
+es-S0365-66912004000800009-1	SINTOMA	343	361	lagrimeo en el ojo	31788005	EXACT	False	False	False
+es-S0212-71992008000700009-1	SINTOMA	123	141	lagrimeo incesante	31788005	EXACT	False	False	False
+es-S0365-66912007000900010-1	SINTOMA	601	739	lámpara de hendidura del OI mostraba una inyección ciliar marcada, una reacción inflamatoria leve en la cámara anterior y un iris abombado	45177002	NARROW	True	False	False
+es-S0212-71992004001100006-1	SINTOMA	3047	3067	lentificación difusa	364852004	NARROW	False	False	True
+es-S1130-01082008000900011-1	SINTOMA	1175	1228	lesión anecoica, bien delimitada, de aspecto quístico	396877008	EXACT	False	False	False
+es-S0211-57352011000400009-1	SINTOMA	2630	2673	lesiones hemorrágicas intra ni extraaxiales	1386000	NARROW	False	False	True
+es-S1888-75462015000400006-1	SINTOMA	1739	1765	leve alteración subcondral	118954006	NARROW	False	False	False
+es-S1130-05582014000300006-1	SINTOMA	1797	1820	leve déficit al soplido	424650008	NARROW	False	False	True
+es-S1137-66272012000300023-1	SINTOMA	238	287	leve disminución del factor VII de la coagulación	37193007	EXACT	False	False	False
+es-S0365-66912012000500003-1	SINTOMA	1796	1830	leve engrosamiento esclerocoroideo	247199007	EXACT	False	False	False
+es-S0210-48062007000300014-1	SINTOMA	409	426	libido conservada	47949009	EXACT	False	False	False
+es-S0365-66912007001200011-1	SINTOMA	1104	1143	limbo nasal de características normales	366014002	NARROW	False	False	True
+es-S1134-80462009000500006-1	SINTOMA	1057	1107	limitación de la movilidad de la columna vertebral	840678003	EXACT	False	False	False
+es-S1137-66272013000100024-1	SINTOMA	1004	1061	líquido articular es positivo para Haemophilus influenzae	167863008	NARROW	False	False	False
+es-S0212-16112010000100017-1	SINTOMA	572	598	líquido de aspecto lechoso	365669006	NARROW	False	False	True
+es-S0376-78922016000200011-1	SINTOMA	1112	1144	líquido periprotésico en la mama	237475004	EXACT	False	False	False
+es-S0376-78922016000200011-1	SINTOMA	2290	2381	líquido periprotésico evacuado durante la cirugía resultó positivo para células neoplásicas	309307000	NARROW	False	False	False
+es-S1137-66272013000100024-1	SINTOMA	743	769	líquido sinovial purulento	167884003	EXACT	False	False	False
+es-S1135-76062013000100008-1	SINTOMA	1113	1222	"líquido verde oscuro (bilis y escasos restos hemáticos en forma de ""posos de café""); las paredes del estómago"	414391001	NARROW	False	False	False
+es-S1135-76062013000100008-1	SINTOMA	745	786	líquido verde oscuro en orificios nasales	836475004	EXACT	False	False	False
+es-S0212-71992004001100006-1	SINTOMA	724	736	macrocitosis	72826005	EXACT	False	False	False
+es-S1698-69462006000100006-1	SINTOMA	1099	1120	mal descanso nocturno	301345002	EXACT	False	False	False
+es-S1130-05582014000400006-2	SINTOMA	524	542	mala higiene bucal	110299009	EXACT	False	False	False
+es-S0210-48062007000300014-1	SINTOMA	559	573	mamas normales	290084006	EXACT	False	False	False
+es-S0212-71992004001100006-1	SINTOMA	3314	3335	mamografía fue normal	168749009	EXACT	False	False	False
+es-S0365-66912007000900016-1	SINTOMA	1294	1357	mancha blanca y pigmento peripapilar temporal superior en el OD	247138002	NARROW	True	False	True
+es-S0365-66912004000800009-1	SINTOMA	697	727	mancha hipopigmentada en tórax	23267004	NARROW	False	False	False
+es-S0365-66912007000900016-1	SINTOMA	1505	1564	manchas blanco-amarillentas distribuidas por polo posterior	247138002	NARROW	False	False	False
+es-S0365-66912007000900016-1	SINTOMA	2634	2700	manchas blanco-amarillentas tenues en polo posterior de ambos ojos	247138002	NARROW	False	False	False
+es-S1137-66272015000200019-2	SINTOMA	748	790	maniobra del gancho, se reproduce el dolor	427304006	NARROW	False	False	False
+es-S1888-75462015000400006-1	SINTOMA	1015	1076	maniobras de Valleix, Fabere, Lasegue y Bragard son negativas	298690008	EXACT	False	False	False
+es-S1699-695X2015000300013-1	SINTOMA	753	767	marcha estable	449811004	EXACT	False	False	False
+es-S1137-66272014000200011-1	SINTOMA	2555	2590	márgenes quirúrgicos estaban libres	310342002	EXACT	False	False	False
+es-S1130-01082007000400010-1	SINTOMA	1554	1580	masa en cabeza de páncreas	126860002	EXACT	False	False	False
+es-S1130-01082009000900012-1	SINTOMA	148	175	masa en crura diafragmática	300851005	NARROW	False	False	False
+es-S0212-71992000001200006-1	SINTOMA	1974	1990	masa intra-axial	281229000	NARROW	False	False	False
+es-S0376-78922016000200012-1	SINTOMA	426	441	masa parespinal	300862005	NARROW	False	False	True
+es-S0365-66912004001000008-1	SINTOMA	1891	1906	masa pigmentada	396556000	EXACT	False	False	False
+es-S0365-66912006000900010-1	SINTOMA	424	439	masa pigmentada	396556000	EXACT	False	False	False
+es-S0365-66912006000900010-1	SINTOMA	194	235	masa pigmentada en el ángulo iridocorneal	762415003	NARROW	False	False	False
+es-S1130-01082009000300015-1	SINTOMA	235	259	masa polipoidea en sigma	428472008	EXACT	False	False	False
+es-S0365-66912006000900010-1	SINTOMA	362	394	masa presente en cámara anterior	302217008	NARROW	False	False	False
+es-S1137-66272013000100023-1	SINTOMA	1160	1177	masa prevertebral	410730009	NARROW	False	False	False
+es-S1130-05582003000600004-2	SINTOMA	1056	1148	masa radiolúcida homogénea unilocular de 5 cm de diámetro mayor, que ocupaba todo el maxilar	128234004	NARROW	False	False	False
+es-S0365-66912004001000008-1	SINTOMA	918	986	masa redondeada localizada entre la raíz del iris y el cuerpo ciliar	248509009	NARROW	False	False	False
+es-S1130-05582003000600004-2	SINTOMA	841	873	masa, se extendía hacia palatino	1196999009	NARROW	False	False	False
+es-S1698-69462006000100003-1	SINTOMA	1030	1065	maxilar inferior desdentado parcial	371084005	NARROW	False	False	False
+es-S1698-69462006000100003-1	SINTOMA	1067	1100	maxilar superior desdentado total	128234004	NARROW	False	False	False
+es-S0210-48062007000300014-1	SINTOMA	659	672	meato central	249302009	NARROW	False	False	True
+es-S0365-66912004001200010-2	SINTOMA	1113	1150	megacariocitos displásicos y atípicos	167939004	NARROW	False	False	True
+es-S0365-66912009001100005-3	SINTOMA	382	399	meninges intactas	299729001	NARROW	False	False	False
+es-S1698-69462006000100006-1	SINTOMA	873	883	meteorismo	722879009	EXACT	False	False	False
+es-S0210-48062005000400012-1	SINTOMA	449	471	micción en dos tiempos	47252008	NARROW	False	False	False
+es-S0210-48062005000400012-1	SINTOMA	388	404	micción nocturna	300470007	NARROW	False	False	True
+es-S1137-66272011000300024-1	SINTOMA	3415	3440	microalbuminuria negativa	167583002	EXACT	False	False	False
+es-S1139-76322016000300009-1	SINTOMA	1424	1457	microcalcificaciones testiculares	117261000119108	EXACT	False	False	False
+es-S1130-01082008000900017-1	SINTOMA	2007	2041	microcoils próximos al divertículo	82380002	NARROW	False	False	True
+es-S0210-48062007000300014-1	SINTOMA	2043	2070	Microdeleciones cromosoma Y	717158001	EXACT	False	False	False
+es-S0365-66912007001200009-1	SINTOMA	1308	1321	miodesospsias	15013002	EXACT	False	False	False
+es-S1699-695X2015000200010-1	SINTOMA	1088	1135	molestias a la palpación de la cabeza del radio	298928007	NARROW	False	False	False
+es-S0212-16112010000100017-1	SINTOMA	348	370	molestias en hemitórax	279084009	EXACT	False	False	False
+es-S1130-63432014000400016-1	SINTOMA	3068	3079	monocitosis	418697001	EXACT	False	False	False
+es-S0210-48062007001000004-1	SINTOMA	1640	1649	monorquio	87310001	EXACT	False	False	False
+es-S1130-05582015000400005-1	SINTOMA	275	299	mordida abierta anterior	67289000	EXACT	False	False	False
+es-S1137-66272013000100024-1	SINTOMA	1770	1800	movilidad completa no dolorosa	160680006	EXACT	False	False	False
+es-S1134-80462015000200005-1	SINTOMA	3409	3443	movimiento potencialmente doloroso	425423002	EXACT	False	False	False
+es-S1139-76322016000400018-1	SINTOMA	1815	1836	movimientos anormales	225606002	EXACT	False	False	False
+es-S1130-01082005001200011-1	SINTOMA	1894	1928	movimientos anormales en su pierna	249968003	EXACT	False	False	False
+es-S0376-78922008000400008-1	SINTOMA	211	236	movimientos lateralizados	1231186006	EXACT	False	False	True
+es-S1130-01082010000700014-1	SINTOMA	533	572	mucosa de intestino grueso, con erosión	415767003	EXACT	False	False	False
+es-S0376-78922008000400008-1	SINTOMA	772	796	mucosa labial enrojecida	249400000	NARROW	False	False	False
+es-S1139-76322016000400018-1	SINTOMA	1939	1999	muesca en la pared posterior del tercio superior del esófago	912005	NARROW	False	False	True
+es-S0376-78922015000400012-1	SINTOMA	223	274	muñeca izquierda y produciéndose una hiperextensión	298966005	NARROW	False	False	False
+es-S0004-06142008000300012-1	SINTOMA	667	682	Murphy negativo	300353003	EXACT	False	False	False
+es-S0212-16112009000600018-1	SINTOMA	2360	2396	Na, K, Cl, Calcio y fósforo normales	166685005	EXACT	False	False	False
+es-S0004-06142007000900012-1	SINTOMA	694	715	neoformación cortical	108369006	NARROW	False	False	True
+es-S1134-80462014000500004-1	SINTOMA	2789	2804	neo-osificación	128419007	NARROW	False	False	True
+es-S0213-12852006000600002-1	SINTOMA	4544	4556	neutropénica	72885007	EXACT	False	False	False
+es-S0210-48062009000200019-1	SINTOMA	598	636	nitritos positivos en la tira reactiva	314137006	EXACT	False	False	False
+es-S1130-05582008000400004-1	SINTOMA	1247	1301	niveles elevados de calcio y de parathormona en sangre	166702002	EXACT	False	False	False
+es-S1130-05582008000400004-1	SINTOMA	724	787	niveles elevados de parathormona urinaria y de calcio sanguíneo	166702002	EXACT	False	False	False
+es-S0213-12852006000600002-1	SINTOMA	794	842	nódulo no doloroso a nivel del incisivo superior	1163581009	NARROW	False	False	False
+es-S0212-71992005000600008-1	SINTOMA	2129	2149	nódulo periumbilical	448569009	EXACT	False	False	False
+es-S0004-06142008000500009-1	SINTOMA	1521	1557	normalidad de la vía urinaria en UIV	275730006	EXACT	True	False	True
+es-S0211-57352011000400009-1	SINTOMA	4428	4473	normalización de niveles plasmáticos de sodio	166692000	EXACT	False	False	False
+S0004-06142006000100014-1	SINTOMA	1748	1774	normofunción contralateral	118228005	NARROW	False	False	False
+es-S0213-12852006000600002-1	SINTOMA	4537	4542	obitó	419620001	EXACT	False	False	False
+es-S0213-12852003000500002-1	SINTOMA	1423	1462	Oclusalmente presentaba mordida cruzada	109495004	EXACT	False	False	False
+es-S0004-06142008000300012-1	SINTOMA	1281	1315	oclusión completa de la luz de VCI	470760002	EXACT	True	False	True
+es-S1130-14732005000300004-1	SINTOMA	1864	1892	oclusión del flujo vertebral	195182007	EXACT	False	False	False
+es-S1130-14732005000300004-1	SINTOMA	1357	1410	ocupación del receso anterolateral del canal raquídeo	76107001	NARROW	False	False	False
+es-S0211-69952009000600023-1	SINTOMA	2084	2129	OD con alteración de la sensibilidad relativa	373423002	NARROW	True	False	True
+es-S1137-66272014000200013-1	SINTOMA	329	355	OI de no percepción de luz	63063006	NARROW	True	False	True
+es-S0211-69952009000600023-1	SINTOMA	2179	2224	OI hay una reducción total de la sensibilidad	373423002	EXACT	True	False	True
+es-S0365-66912007000200009-1	SINTOMA	1183	1252	ojo izquierdo presentaba una alteración a nivel del eje azul amarillo	301979008	NARROW	False	False	False
+es-S0365-66912007000200011-1	SINTOMA	227	236	ojo único	92972001	EXACT	False	False	False
+es-S1139-76322016000300015-1	SINTOMA	49	73	ombligo poco cicatrizado	289318004	EXACT	False	False	False
+es-S1130-63432014000500008-1	SINTOMA	711	748	ondas T negativas en la cara anterior	704999008	EXACT	False	False	False
+es-S0365-66912012000300005-1	SINTOMA	374	422	opacidad incipiente del cristalino en ambos ojos	840576009	EXACT	False	False	False
+es-S1699-695X2015000200010-1	SINTOMA	1285	1321	oposición del pulgar está conservada	299190001	NARROW	False	False	False
+es-S0212-71992005001100007-1	SINTOMA	1238	1263	orina: Proteínas positivo	167275009	EXACT	False	False	False
+es-S1134-80462014000500004-1	SINTOMA	2397	2424	osificaciones heterotópicas	128491006	EXACT	False	False	False
+es-S1139-76322013000200009-1	SINTOMA	318	344	otoscopia sin alteraciones	164178007	EXACT	False	False	False
+es-S0004-06142008000400013-1	SINTOMA	351	393	ovario derecho de características normales	289847001	EXACT	False	False	False
+es-S0211-69952016000600552-1	SINTOMA	1714	1722	oxaluria	367621000119107	EXACT	False	False	False
+es-S1698-69462006000100003-1	SINTOMA	1143	1159	paladar profundo	27272007	NARROW	False	False	False
+es-S1130-01082008000300010-1	SINTOMA	779	794	palidez de piel	1209208002	NARROW	False	False	False
+es-S1139-76322009000100006-1	SINTOMA	898	912	palidez facial	1209208002	EXACT	False	False	False
+es-S1130-01082010000700014-1	SINTOMA	369	398	parásitos en heces: negativos	167596001	EXACT	False	False	False
+es-S1135-76062013000100008-1	SINTOMA	1202	1288	paredes del estómago están adelgazadas y con áreas de aspecto hemorrágico en la mucosa	414391001	NARROW	False	False	False
+es-S1135-76062013000200010-1	SINTOMA	2449	2523	parénquima hepático muy alterado con destrucción de la arquitectura normal	300324004	NARROW	False	False	True
+es-S0378-48352006000300005-1	SINTOMA	3212	3250	parénquimas pulmonares bien ventilados	827032003	EXACT	False	False	False
+es-S1887-85712014000100005-1	SINTOMA	562	604	paresia del IV par craneal del ojo derecho	20610004	EXACT	False	False	False
+es-S1139-76322015000400012-1	SINTOMA	526	584	parietoccipital izquierda se apreciaba una escara negruzca	87319000	NARROW	False	False	True
+es-S1137-66272011000300024-1	SINTOMA	1312	1342	Paroniquia en cuarto dedo mano	444646006	EXACT	False	False	False
+es-S0365-66912007000100009-1	SINTOMA	625	654	párpados edematosos a tensión	89091004	EXACT	False	False	False
+es-S0212-71992004001100006-1	SINTOMA	2293	2320	patrón férrico inflamatorio	73511000119101	NARROW	False	False	False
+es-S0004-06142008000700003-1	SINTOMA	1560	1606	pelotón de gasas adherida a la pared vesical	211649008	NARROW	False	False	False
+es-S0376-78922012000400009-1	SINTOMA	454	508	pene de tamaño exagerado dimensión horizontal (grosor)	88673001	EXACT	False	False	False
+es-S0211-57352013000300011-1	SINTOMA	2482	2507	pensamiento desorganizado	736319003	EXACT	False	False	False
+es-S0365-66912012000800005-1	SINTOMA	86	119	pérdida de agudeza visual del ojo	13164000	EXACT	False	False	False
+es-S1699-695X2015000200010-1	SINTOMA	90	120	pérdida de fuerza en las manos	299042006	EXACT	False	False	False
+es-S1888-75462016000400180-1	SINTOMA	1082	1105	pérdida de sensibilidad	33653009	EXACT	False	False	False
+es-S1137-66272014000200013-1	SINTOMA	59	98	pérdida de visión de ojo izquierdo (OI)	274571007	EXACT	True	False	False
+es-S1699-65852007000300003-1	SINTOMA	2838	2866	pérdida ósea periimplantaria	718067000	EXACT	False	False	True
+es-S0365-66912007000900016-1	SINTOMA	1062	1109	pérdida visual al nivel de 20/60 OD y 20/30 OI,	193722001	EXACT	True	False	False
+es-S1130-01082009000200012-1	SINTOMA	460	471	perforación	36191001	EXACT	False	False	False
+es-S1137-66272016000300010-1	SINTOMA	1045	1065	Peristaltismo normal	28423000	EXACT	False	False	False
+es-S1139-76322009000700016-1	SINTOMA	1148	1168	Peristaltismo normal	28423000	EXACT	False	False	False
+es-S1130-01082006000900014-1	SINTOMA	2682	2716	permeabilidad de eje esplenoportal	129579005	EXACT	False	False	False
+es-S1139-76322016000300015-1	SINTOMA	1926	1949	permeabilidad del uraco	398316009	EXACT	False	False	False
+es-S0376-78922009000400011-1	SINTOMA	53	114	picadura de raya a nivel de la superficie interna del tobillo	283830007	NARROW	False	False	False
+es-S0212-71992005001100007-1	SINTOMA	1146	1176	pico monoclonal en banda gamma	109983007	EXACT	False	False	False
+es-S0211-69952012000700028-1	SINTOMA	2105	2123	picos monoclonales	414763006	EXACT	False	False	False
+es-S0376-78922008000400008-1	SINTOMA	970	982	piel íntegra	444884003	EXACT	False	False	False
+es-S0210-48062006000700012-1	SINTOMA	827	860	piocitos en el sedimento de orina	275765006	EXACT	False	False	False
+es-S0210-56912011000200009-1	SINTOMA	345	378	placas blanquecinas en orofaringe	33431000119109	NARROW	False	False	False
+es-S0212-71992005000400007-1	SINTOMA	1301	1319	plaquetas gigantes	44687006	EXACT	False	False	False
+es-S0212-71992005001100007-1	SINTOMA	2005	2026	Plasmocitosis medular	70958007	EXACT	False	False	False
+es-S0365-66912012000500003-1	SINTOMA	1980	2034	pliegues a nivel de la retina interna/EPR/coriocapilar	37480005	EXACT	True	False	True
+es-S0365-66912007000900010-1	SINTOMA	1124	1160	pliegues coroideos bien visualizados	231998005	EXACT	False	False	False
+es-S1137-66272011000300024-1	SINTOMA	767	777	polidipsia	237727005	EXACT	False	False	True
+es-S0365-66912012000800005-1	SINTOMA	222	260	polo anterior no mostraba alteraciones	418727003	NARROW	False	False	True
+S0004-06142006000100010-1	SINTOMA	418	471	polo superior de riñón derecho desplazado hacia abajo	366263008	NARROW	False	False	False
+es-S0210-48062009000300013-1	SINTOMA	211	238	Portador de catéter doble J	763659007	EXACT	False	False	False
+es-S0378-48352005000100005-2	SINTOMA	168	205	positivos, al igual que el Herceptest	1162602001	EXACT	False	False	False
+es-S0211-69952009000600023-1	SINTOMA	1806	1866	Potenciales evocados visuales en OD y OI de mediana amplitud	277114007	NARROW	True	False	False
+es-S0210-48062007000300014-1	SINTOMA	639	657	prepucio retráctil	366289008	EXACT	False	False	False
+es-S1699-695X2015000200010-1	SINTOMA	1252	1280	presa-puño-pinza es completa	284272005	NARROW	False	False	True
+es-S0211-69952012000500025-1	SINTOMA	1909	1944	presentaba pulsos humeral y cubital	301156006	EXACT	False	False	False
+es-S2254-28842014000200009-1	SINTOMA	490	501	presíncopes	427461000	EXACT	False	False	False
+es-S0210-48062007000300014-1	SINTOMA	432	455	problemas eyaculatorios	386790008	EXACT	False	False	False
+es-S0210-48062007000300014-1	SINTOMA	370	407	problemas para la erección voluntaria	276364001	EXACT	False	False	False
+es-S1130-05582015000400005-1	SINTOMA	1207	1242	problemas relacionados con el habla	310814007	EXACT	False	False	False
+es-S0212-71992008000700009-1	SINTOMA	233	250	profusión del ojo	301919003	EXACT	False	False	True
+es-S1134-80462015000200005-1	SINTOMA	1240	1274	prominencia discal difusa en L4-L5	472979002	NARROW	False	False	False
+es-S0210-48062009000600012-1	SINTOMA	1127	1149	próstata firboelástica	276386000	EXACT	False	False	False
+es-S0210-48062009000400020-1	SINTOMA	865	932	próstata mal delimitada en ambas bases, con aumento de consistencia	276387009	NARROW	False	False	False
+S0004-06142007000600012-1	SINTOMA	607	649	Proteinas totales y fraccionadas: Normales	166780008	EXACT	False	False	False
+es-S0212-71992005001100007-1	SINTOMA	2311	2341	Proteinuria de cadenas ligeras	17928001	EXACT	False	False	False
+es-S1137-66272014000100019-1	SINTOMA	191	281	protrusión redondeada, blanda, y no dolorosa en la cara lateral derecha de la pared rectal	248523006	NARROW	False	False	False
+es-S0212-71992004001100006-1	SINTOMA	54	71	protusión frontal	90145001	EXACT	False	False	True
+es-S0212-71992004001100006-1	SINTOMA	1328	1353	protusión frontal derecha	90145001	NARROW	False	False	False
+es-S0210-48062006000700012-1	SINTOMA	1264	1328	punción transperineal ecodirigida obteniendo contenido purulento	418844005	NARROW	False	False	True
+es-S1137-66272015000200019-2	SINTOMA	661	710	punto más doloroso en la unión de la 10a costilla	298740004	NARROW	False	False	True
+es-S0376-78922009000100014-1	SINTOMA	528	543	punto sangrante	43696002	EXACT	False	False	False
+es-S0365-66912007000900016-1	SINTOMA	306	384	puntos blancos de 100-200 micras más numerosos en el área temporal a la mácula	247138002	NARROW	False	False	True
+es-S1134-80462009000500006-1	SINTOMA	1241	1280	puntos gatillo en la zona paravertebral	134190002	NARROW	False	False	False
+es-S1698-69462006000100006-1	SINTOMA	725	804	puntos gatillo en músculos maseteros y esterno-cleido-mastoideos de ambos lados	134190002	NARROW	False	False	False
+es-S0376-78922007000300006-3	SINTOMA	610	641	pus dentro de la vaina sinovial	302940000	NARROW	False	False	False
+S0004-06142007000600012-1	SINTOMA	1105	1113	quiluria	91098006	EXACT	False	False	False
+es-S0210-48062004000200011-1	SINTOMA	1232	1280	Radiografía de tórax, mínima congestión vascular	15232001	EXACT	False	False	False
+es-S1130-01082010000200011-1	SINTOMA	736	780	radiografía simple de abdomen que fue normal	168703000	EXACT	False	False	False
+es-S1130-14732005000300004-1	SINTOMA	2854	2896	raíces de C2 y C3 derechas quedan indemnes	246595001	NARROW	False	False	False
+es-S0376-78922008000400008-1	SINTOMA	1245	1329	rash exantemático instalado en dirección céfalo-caudal máculopapular, no pruriginoso	398600002	NARROW	False	False	False
+es-S1698-44472004000400011-1	SINTOMA	1036	1054	reabsorción apical	109588005	EXACT	False	False	False
+es-S0212-71992004001100006-1	SINTOMA	3236	3309	realce meníngeo anormal difuso más prominente en región frontal izquierda	16079691000119105	NARROW	False	False	False
+es-S0378-48352004001000003-1	SINTOMA	723	778	reborde costal derecho dolorosa a la palpación profunda	161977000	EXACT	False	False	False
+es-S0378-48352005000100005-2	SINTOMA	141	177	receptores hormonales eran positivos	417742002	EXACT	False	False	True
+es-S1130-01082008001000008-1	SINTOMA	269	328	recto anterior derecho, muy doloroso y de consistencia dura	28221000119103	NARROW	False	False	False
+es-S0376-78922008000400008-1	SINTOMA	4571	4594	reepitelización corneal	246966003	NARROW	False	False	False
+es-S1134-80462014000300009-1	SINTOMA	850	879	reflejo cremastérico positivo	274608007	EXACT	False	False	False
+es-S1139-76322016000300009-1	SINTOMA	543	572	Reflejo cremastérico presente	274608007	EXACT	False	False	False
+es-S0365-66912007000100009-1	SINTOMA	1582	1609	reflejos pupilares normales	386665002	EXACT	False	False	False
+es-S0365-66912007001000008-1	SINTOMA	2058	2089	reflejos pupilares son normales	386665002	EXACT	False	False	False
+es-S1130-05582017000300150-3	SINTOMA	433	476	regeneración ósea espontánea hemimandibular	370549005	NARROW	False	False	False
+es-S1130-01082007000100009-1	SINTOMA	634	711	región glútea y perianal múltiples lesiones nodulares con zonas cicatriciales	400037008	NARROW	False	False	False
+es-S0210-48062005000700012-1	SINTOMA	799	837	región ilíaca izquierda está empastada	307135001	NARROW	False	False	False
+es-S0210-48062006000900012-2	SINTOMA	1723	1745	residuo post-miccional	54598009	EXACT	False	False	False
+es-S1134-80462015000500005-1	SINTOMA	840	914	resonancia magnética nuclear (RMN) de columna completa no mostró anomalías	169082008	NARROW	True	False	False
+es-S0211-57352011000400009-1	SINTOMA	3557	3587	responde a estímulos dolorosos	450847001	EXACT	False	False	False
+es-S0376-78922009000400011-1	SINTOMA	927	954	restos del aguijón venenoso	72587008	NARROW	False	False	False
+es-S1130-01082009000500007-1	SINTOMA	649	675	restos fecales compactados	75295004	EXACT	False	False	False
+es-S1137-66272014000200011-1	SINTOMA	3152	3216	restos post-tiroidectomía de localización en la cámara posterior	56823000	NARROW	False	False	True
+es-S1698-44472004000200012-1	SINTOMA	841	859	restos radiculares	66569006	EXACT	False	False	False
+es-S1698-44472004000200012-1	SINTOMA	1011	1029	restos radiculares	66569006	EXACT	False	False	False
+es-S1698-44472004000200012-1	SINTOMA	1264	1292	restos radiculares maxilares	66569006	EXACT	False	False	False
+es-S0211-69952009000600023-1	SINTOMA	2132	2174	restricción de la mancha ciega (aumentada)	1151008	NARROW	False	False	True
+es-S0376-78922009000300005-1	SINTOMA	3340	3363	restricción del perineo	289875004	EXACT	False	False	False
+es-S0365-66912008000700010-1	SINTOMA	240	275	restricción en las ducciones del OD	456161000124109	NARROW	True	False	True
+es-S0365-66912010000700004-1	SINTOMA	968	1001	retención generalizada de fluidos	43498006	EXACT	False	False	False
+es-S0365-66912007000100010-1	SINTOMA	551	571	retracción palpebral	700344004	EXACT	False	False	False
+es-S0365-66912007000100010-1	SINTOMA	2359	2388	retracción palpebral superior	700344004	EXACT	False	False	False
+es-S0365-66912007000100010-1	SINTOMA	1149	1200	retracción palpebral superior de 3 mm en ambos ojos	11718531000119109	EXACT	False	False	False
+es-S0376-78922011000500012-1	SINTOMA	665	677	riesgo vital	135819008	EXACT	False	False	True
+es-S1130-05582003000600004-2	SINTOMA	940	1017	rinoscopia anterior no mostró alteraciones del suelo o de las paredes nasales	164179004	NARROW	False	False	False
+es-S1887-85712014000100005-1	SINTOMA	857	873	Romberg negativo	298311000	EXACT	False	False	False
+S0004-06142007000600012-1	SINTOMA	650	687	RX de cadera: Ausencia de lesión ósea	168661005	EXACT	True	False	True
+es-S1130-14732005000300004-1	SINTOMA	2902	2918	saco dural libre	299729001	NARROW	False	False	True
+es-S1139-76322016000300015-1	SINTOMA	1289	1345	salida abundante de líquido claro del centro del ombligo	35745008	NARROW	False	False	False
+es-S1887-85712016000100005-1	SINTOMA	2462	2486	sangrado activo arterial	234003006	EXACT	False	False	False
+es-S0365-66912007001200009-1	SINTOMA	1094	1120	sangrado activo de la AMIR	93478000	NARROW	True	False	True
+es-S0004-06142008000400016-1	SINTOMA	690	710	sangrado con el roce	248251001	NARROW	False	False	False
+es-S0376-78922009000100014-1	SINTOMA	79	128	sangrado de una tumoración localizada en el brazo	396560002	NARROW	False	False	True
+es-S1130-01082005001100017-2	SINTOMA	614	635	sangrado intratumoral	396560002	EXACT	False	False	False
+es-S1135-76062013000200010-1	SINTOMA	749	799	sangrado reciente, que comprime el lóbulo hepático	16763008	EXACT	False	False	False
+es-S1137-66272016000200010-1	SINTOMA	211	249	sangre oculta en heces (TSOH) positivo	59614000	EXACT	True	False	False
+es-S1134-80462015000200005-1	SINTOMA	1477	1522	saturación de oxígeno dentro de la normalidad	448225001	EXACT	False	False	False
+es-S0376-78922008000400008-1	SINTOMA	1173	1213	secreción purulenta de ambas conjuntivas	423243008	EXACT	False	False	False
+es-S1130-05582009000600004-1	SINTOMA	907	945	secreción salival se presentaba normal	300269008	EXACT	False	False	False
+es-S0365-66912007000900010-1	SINTOMA	828	864	sector nasal de una masa amelanótica	127002001	NARROW	False	False	True
+es-S2254-28842014000200009-1	SINTOMA	2760	2766	sedada	17971005	EXACT	False	False	False
+es-S0210-48062006000700012-1	SINTOMA	214	234	sedimento patológico	167222005	NARROW	False	False	False
+es-S0210-48062007000300014-1	SINTOMA	1595	1656	semen: Aspecto normal, licuefacción normal, viscosidad normal	167768009	EXACT	False	False	False
+es-S1134-80462015000500005-1	SINTOMA	349	384	"sensación de ""descargas eléctricas"""	723316007	EXACT	False	False	False
+es-S0211-57352011000400009-1	SINTOMA	1671	1700	sensación de muerte inminente	712759008	NARROW	False	False	False
+es-S0212-16112009000600018-1	SINTOMA	1868	1909	sensación de plenitud postpandrial precoz	442076002	EXACT	False	False	False
+es-S1137-66272011000300024-1	SINTOMA	1137	1160	Sensibilidad vibratoria	299932007	EXACT	False	False	False
+es-S1137-66272012000100017-1	SINTOMA	2502	2697	sensible a todos los antibióticos testados (ampicilina, amoxicilina-ácido clavulánico, azitromicina, levofloxacino, ciprofloxacino, cefotaxima, cefuroxima, imipenen, cotrimoxazol y tetraciclinas)	168201002	NARROW	False	False	False
+es-S0365-66912012000800005-1	SINTOMA	1477	1552	separación de las capas internas de la retina en comunicación con la foseta	302890002	EXACT	False	False	False
+es-S0212-71992004000300009-1	SINTOMA	1433	1464	serología positiva para Paperas	105821000119107	EXACT	False	False	False
+es-S0212-71992008000700009-1	SINTOMA	1248	1351	sien derecha y del plano torácico anterior se podía apreciar la dilatación de la red venosa superficial	161992004	NARROW	False	False	False
+es-S1134-80462005000300004-1	SINTOMA	2692	2727	signo de Lasegue positivo bilateral	298692000	EXACT	False	False	False
+es-S1699-695X2015000200010-1	SINTOMA	1482	1512	signo de Phalen mediano dudoso	21124006	NARROW	False	False	False
+es-S0210-48062005000700012-1	SINTOMA	848	872	signo del psoas positivo	77069005	EXACT	False	False	False
+es-S1139-76322013000200009-1	SINTOMA	612	630	signos cerebelosos	223176004	EXACT	False	False	True
+es-S0212-71992004001100006-1	SINTOMA	1360	1407	signos cutáneos de hipervascularización craneal	247475002	NARROW	False	False	False
+es-S0213-12852003000500002-1	SINTOMA	2164	2233	signos de crecimiento y sobrecarga sistólica del ventrículo izquierdo	25488008	EXACT	False	False	True
+es-S0378-48352006000300005-1	SINTOMA	1119	1175	signos inflamatorios inespecíficos en el árbol bronquial	897306006	NARROW	False	False	False
+es-S0212-71992004001100006-1	SINTOMA	3117	3169	signos lesivo-irritativos en área temporal izquierda	276596008	NARROW	False	False	True
+es-S1889-836X2015000200005-2	SINTOMA	1798	1813	síntomas en pie	699370008	EXACT	False	False	False
+es-S1130-05582010000200004-1	SINTOMA	618	670	síntomas inflamatorios en la zona radiada, con dolor	65761003	NARROW	False	False	True
+es-S0211-57352011000400009-1	SINTOMA	1558	1582	sintomatología depresiva	394924000	EXACT	False	False	False
+es-S0211-57352011000400009-1	SINTOMA	2487	2511	sintomatología depresiva	394924000	EXACT	False	False	False
+es-S0210-48062004000500009-1	SINTOMA	234	259	sintomatología prostática	30041000119101	EXACT	False	False	False
+es-S0210-48062009000600012-1	SINTOMA	1016	1041	sintomatología prostática	30041000119101	EXACT	False	False	False
+es-S0211-57352013000300011-1	SINTOMA	4499	4532	Sintomatología psicótica positiva	280427006	EXACT	False	False	False
+es-S1889-836X2015000200005-2	SINTOMA	3060	3078	sobrecarga del pie	118932009	NARROW	False	False	True
+es-S0211-57352013000300011-1	SINTOMA	279	287	sociable	286720003	EXACT	False	False	False
+es-S1698-69462006000100006-1	SINTOMA	88	106	somnolencia diurna	141000119100	EXACT	False	False	False
+es-S1137-66272016000300010-1	SINTOMA	814	868	soplo sistólico panfocal de predominio en foco aórtico	82184000	EXACT	False	False	False
+es-S1138-123X2004000100006-2	SINTOMA	88	103	succión digital	55644006	EXACT	False	False	True
+es-S1699-695X2015000200010-1	SINTOMA	758	798	sudoración y enrojecimiento de las manos	248248008	NARROW	False	False	False
+es-S0213-12852005000400003-1	SINTOMA	244	268	superficie como ulcerada	56208002	EXACT	False	False	True
+es-S1130-14732006000200011-1	SINTOMA	2220	2254	tabla externa adelgazada y elevada	301314001	NARROW	False	False	True
+es-S1130-14732006000200011-1	SINTOMA	2060	2135	tabla interna estaba adelgazada, con abalonamiento irregular y defecto óseo	301314001	NARROW	False	False	False
+es-S0365-66912007000100009-1	SINTOMA	937	990	TAC orbitario urgente en el que aparece engrosamiento	445398008	NARROW	True	False	True
+es-S0212-71992005000400007-1	SINTOMA	2147	2169	tamaño hepático normal	300337001	EXACT	False	False	False
+es-S1699-695X2015000300013-1	SINTOMA	902	921	temblor fino distal	42800007	EXACT	False	False	False
+es-S1130-01082005001200011-1	SINTOMA	1025	1069	test de absorción de la D-xilosa, fue normal	167203001	EXACT	False	False	False
+S0004-06142007000200017-1	SINTOMA	512	539	teste izquierdo hipotrófico	17585008	EXACT	False	False	False
+es-S0210-48062007000300014-1	SINTOMA	810	850	testículo derecho de consistencia normal	302031001	EXACT	False	False	False
+S0004-06142007000200017-1	SINTOMA	1799	1827	testículo izquierdo atrófico	17585008	EXACT	False	False	False
+es-S0210-48062007000300014-1	SINTOMA	674	716	testículo izquierdo con volumen disminuido	276411001	EXACT	False	False	False
+S0004-06142007000200017-1	SINTOMA	220	273	testículo izquierdo hipogénico y disminuido de tamaño	276411001	EXACT	False	False	False
+es-S0211-69952012000500025-1	SINTOMA	633	639	thrill	271658004	EXACT	False	False	True
+es-S1137-66272016000300010-1	SINTOMA	1033	1043	timpanismo	297209005	EXACT	False	False	True
+es-S1139-76322009000100006-1	SINTOMA	698	714	tiraje subcostal	8453006	EXACT	False	False	False
+es-S1699-695X2015000300013-1	SINTOMA	2075	2139	tiroidea, que en nuestro caso mostraba una hipercaptación difusa	441905004	NARROW	False	False	False
+es-S0212-16112011000300031-1	SINTOMA	2495	2520	tolerancia oral era buena	251387006	NARROW	False	False	False
+es-S1138-123X2004000100006-2	SINTOMA	1051	1067	tonicidad labial	366235006	EXACT	False	False	False
+es-S1130-01082005001200011-1	SINTOMA	2360	2405	tono y la fuerza muscular estaban conservados	827065006	EXACT	False	False	False
+es-S0365-66912004000900009-1	SINTOMA	524	544	tortuosidad vascular	420515004	EXACT	False	False	True
+es-S0378-48352006000300005-1	SINTOMA	3276	3312	tracto fibroso residual en el pulmón	51615001	NARROW	False	False	False
+es-S1137-66272012000300023-1	SINTOMA	2512	2589	tramos distales de ileon, la presencia de abundantes restos hemáticos frescos	95535005	EXACT	False	False	False
+es-S1698-69462006000200016-1	SINTOMA	801	826	transmigración del canino	234947003	NARROW	False	False	True
+es-S0211-69952012000500025-1	SINTOMA	1318	1330	trasplantado	737294004	EXACT	False	False	False
+es-S0211-69952012000500025-1	SINTOMA	459	471	trasplantado	737294004	EXACT	False	False	False
+es-S1137-66272016000300010-1	SINTOMA	1337	1361	trastornos de conducción	44808001	EXACT	False	False	True
+es-S1134-80462005000300004-1	SINTOMA	904	926	trastornos miccionales	252030006	EXACT	False	False	False
+es-S1888-75462015000400006-1	SINTOMA	1303	1325	Trendelenburg negativo	299316003	EXACT	False	False	False
+es-S0004-06142008000300012-1	SINTOMA	2901	2917	tricúspide libre	301111004	EXACT	False	False	True
+es-S1887-85712012000400006-1	SINTOMA	1981	2058	trompa de Falopio derecha la cual está adherida a la pared abdominal anterior	15933661000119109	NARROW	False	False	False
+es-S0210-48062006000700012-1	SINTOMA	585	649	tumefacción en la zona perineal con enrojecimiento y calor local	124734007	NARROW	False	False	False
+S0004-06142007000600014-1	SINTOMA	971	1004	tumoración del conducto deferente	126903003	EXACT	False	False	False
+es-S1130-01082007000400010-1	SINTOMA	1975	1994	tumoración duodenal	427702008	EXACT	False	False	False
+es-S0212-71992008000700009-1	SINTOMA	1396	1478	tumoración dura, adherida y no dolorosa a nivel de la fosa supraclavicular derecha	126636004	EXACT	False	False	False
+es-S1130-05582007000500007-1	SINTOMA	391	412	tumoración mandibular	126634001	EXACT	False	False	False
+es-S1130-05582007000500007-1	SINTOMA	159	180	tumoración mandibular	126634001	EXACT	False	False	True
+es-S1130-01082004001200010-1	SINTOMA	225	277	tumoración móvil y dolorosa en hipocondrio izquierdo	827121001	EXACT	False	False	False
+es-S0210-48062007000700014-1	SINTOMA	138	157	tumoración perineal	300569009	EXACT	False	False	False
+es-S0210-48062007000700014-1	SINTOMA	361	410	tumoración perineal de localización paracavernosa	300569009	EXACT	False	False	False
+es-S0211-69952016000600552-1	SINTOMA	1664	1674	uricosuria	16813005	EXACT	False	False	False
+es-S1137-66272011000300024-1	SINTOMA	2030	2043	útero bicorne	31401003	EXACT	False	False	False
+es-S0004-06142008000400013-1	SINTOMA	336	348	útero grande	198319004	EXACT	False	False	False
+es-S0376-78922009000300005-1	SINTOMA	780	791	vagina seca	31908003	EXACT	False	False	False
+es-S1139-76322016000200013-1	SINTOMA	1482	1505	valores de CPK normales	1153487008	EXACT	True	False	True
+es-S0365-66912007000200011-1	SINTOMA	425	455	variación de su agudeza visual	260246004	NARROW	False	False	False
+es-S0365-66912007001200011-1	SINTOMA	610	637	vascularización superficial	231911000	EXACT	False	False	True
+es-S0376-78922012000400009-1	SINTOMA	954	1011	vasos linfáticos y los ganglios regionales están indemnes	302060005	NARROW	False	False	False
+es-S0210-48062005000300014-1	SINTOMA	626	680	vejiga presentó ecos internos compatibles con coágulos	34409000	NARROW	False	False	False
+es-S0004-06142008000300012-1	SINTOMA	2185	2223	vena porta y suprahepáticas permeables	860969004	NARROW	False	False	False
+S0004-06142006000900015-1	SINTOMA	330	350	vena renal permeable	248727005	NARROW	False	False	False
+es-S1130-01082010000200011-1	SINTOMA	1982	2016	vesícula biliar aparece distendida	300344005	EXACT	False	False	False
+es-S1130-01082009000400015-1	SINTOMA	390	416	vesícula biliar distendida	300344005	EXACT	False	False	False
+es-S1130-01082006000900014-1	SINTOMA	864	890	vesícula biliar distendida	300344005	EXACT	False	False	False
+es-S1130-01082007000400010-1	SINTOMA	977	1006	vesícula biliar era hidrópica	47312008	EXACT	False	False	False
+es-S1130-01082007001200014-1	SINTOMA	391	459	vesícula biliar estaba marcadamente distendida y aumentada de tamaño	300344005	EXACT	False	False	False
+es-S1130-01082007000400010-1	SINTOMA	511	541	vesícula biliar, con molestias	102628000	EXACT	False	False	False
+es-S1130-01082007001200014-1	SINTOMA	565	613	vesícula estaba engrosada y la mucosa hiperémica	300344005	NARROW	False	False	False
+es-S0376-78922008000400008-1	SINTOMA	1411	1521	vesículas confluentes y esfacelación de éstas en tórax anterior y posterior, mejillas y pabellones auriculares	79893008	NARROW	False	False	False
+es-S0211-69952015000500015-2	SINTOMA	411	421	VHC oculto	50711007	EXACT	True	False	True
+es-S0211-69952014000600016-1	SINTOMA	348	355	viruria	123729002	EXACT	False	False	False
+es-S0211-69952014000600016-1	SINTOMA	261	293	viruria (107 copias/ml) para BKV	123729002	NARROW	True	False	False
+es-S1130-01082007001100009-1	SINTOMA	1383	1437	volumen rectal máximo tolerable discretamente reducido	249597005	NARROW	False	False	True
+es-S0211-69952012000500025-1	SINTOMA	98	138	voluminosa masa pulsátil en el antebrazo	448928006	NARROW	False	False	False
+es-S0212-16112014000300032-1	SINTOMA	1095	1115	vómitos incoercibles	332982000	EXACT	False	False	False
+es-S1130-01082007001100009-1	SINTOMA	393	446	zona indurada en la pared lateral izquierda del recto	5964004	NARROW	False	False	False
+es-S0212-71992005000600008-1	SINTOMA	903	997	zona periumbilical, donde se aprecia a la inspección y se palpa un nódulo de consistencia dura	448569009	NARROW	False	False	False

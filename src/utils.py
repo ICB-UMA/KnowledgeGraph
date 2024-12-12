@@ -1,12 +1,23 @@
 from tqdm.auto import tqdm
 import pandas as pd
+from typing import Dict, List, Tuple, Optional
 
 """
 Author: Fernando Gallego
 Affiliation: Researcher at the Computational Intelligence (ICB) Group, University of Málaga
 """
 
-def extract_column_names_from_ctl_file(ctl_file_path):
+def extract_column_names_from_ctl_file(
+    ctl_file_path: str) -> List[str]:
+    """
+    Extract column names from a CTL file.
+
+    Args:
+        ctl_file_path (str): Path to the CTL file.
+
+    Returns:
+        List[str]: List of column names extracted from the file.
+    """
     with open(ctl_file_path, 'r') as file:
         lines = file.readlines()
 
@@ -25,41 +36,90 @@ def extract_column_names_from_ctl_file(ctl_file_path):
     return column_names
 
 
-def read_rrf_file_in_chunks(file_path, chunk_size, columns, dtype_dict=None):
-    total_lines = sum(1 for line in open(file_path, 'r', encoding='utf8'))
+def read_rrf_file_in_chunks(
+    file_path: str, 
+    chunk_size: int, 
+    columns: List[str], 
+    dtype_dict: Optional[Dict[str, str]] = None
+) -> pd.DataFrame:
+    """
+    Read an RRF file in chunks and concatenate the chunks into a DataFrame.
+
+    Args:
+        file_path (str): Path to the RRF file.
+        chunk_size (int): Number of lines per chunk.
+        columns (List[str]): List of column names.
+        dtype_dict (Optional[Dict[str, str]]): Dictionary specifying data types for columns.
+
+    Returns:
+        pd.DataFrame: Concatenated DataFrame containing all chunks.
+    """
     chunk_list = []
 
-    with tqdm(total=total_lines, desc="Processing", unit="line") as pbar:
-        for chunk in pd.read_csv(file_path, sep='|', chunksize=chunk_size, na_filter=False, low_memory=False, dtype=dtype_dict):
-            chunk = chunk.iloc[:, :len(columns)]
+    with tqdm(desc="Processing", unit="line") as pbar:
+        for chunk in pd.read_csv(
+            file_path,
+            sep='|',
+            chunksize=chunk_size,
+            na_filter=False,
+            low_memory=True,  
+            dtype=dtype_dict,
+            usecols=range(len(columns)),  
+            names=columns,  
+        ):
             chunk_list.append(chunk)
-            pbar.update(min(chunk_size, total_lines - pbar.n))
+            pbar.update(len(chunk))
 
-    df = pd.concat(chunk_list, axis=0)
-    df.columns = columns
+    df = pd.concat(chunk_list, ignore_index=True)
     return df
 
-def load_corpus_data(base_path, corpus):
-    """Load testing data and gazetteer based on the specified corpus and base path."""
-    if corpus == "SympTEMIST":
-        test_df = pd.read_csv(f"{base_path}/SympTEMIST/symptemist-complete_240208/symptemist_test/subtask2-linking/symptemist_tsv_test_subtask2.tsv", sep="\t", header=0, dtype={"code": str})
-        test_df = test_df.rename(columns={'text': 'term'})
-        df_gaz = pd.read_csv(f"{base_path}/SympTEMIST/symptemist-complete_240208/symptemist_gazetteer/symptemist_gazetter_snomed_ES_v2.tsv", sep="\t", header=0, dtype={"code": str})
-        train_df = pd.read_csv(f"{base_path}/SympTEMIST/symptemist-complete_240208/symptemist_train/subtask2-linking/symptemist_tsv_train_subtask2_complete.tsv", sep="\t", header=0, dtype={"code": str})
-        train_df = train_df.rename(columns={'text': 'term'})
-    elif corpus == "MedProcNER":
-        test_df = pd.read_csv(f"{base_path}/MedProcNER/medprocner_gs_train+test+gazz+multilingual+crossmap_230808/medprocner_test/tsv/medprocner_tsv_test_subtask2.tsv", sep="\t", header=0, dtype={"code": str})
-        test_df = test_df.rename(columns={'text': 'term'})
-        df_gaz = pd.read_csv(f"{base_path}/MedProcNER/medprocner_gs_train+test+gazz+multilingual+crossmap_230808/medprocner_gazetteer/gazzeteer_medprocner_v1_noambiguity.tsv", sep="\t", header=0, dtype={"code": str})
-        train_df = pd.read_csv(f"{base_path}/MedProcNER/medprocner_gs_train+test+gazz+multilingual+crossmap_230808/medprocner_train/tsv/medprocner_tsv_train_subtask2.tsv", sep="\t", header=0, dtype={"code": str})
-        train_df = train_df.rename(columns={'text': 'term'})
-    elif corpus == "DisTEMIST":
-        test_df = pd.read_csv(f"{base_path}/DisTEMIST/distemist_zenodo/test_annotated/subtrack2_linking/distemist_subtrack2_test_linking.tsv", sep="\t", header=0, dtype={"code": str})
-        test_df = test_df.rename(columns={'span': 'term'})
-        df_gaz = pd.read_csv(f"{base_path}/DisTEMIST/dictionary_distemist.tsv", sep="\t", header=0, dtype={"code": str})
-        train_df = pd.read_csv(f"{base_path}/DisTEMIST/distemist_zenodo/training/subtrack2_linking/distemist_subtrack2_training2_linking.tsv", sep="\t", header=0, dtype={"code": str})
-        train_df = train_df.rename(columns={'span': 'term'})
-    else:
-        raise ValueError(f"Unsupported corpus: {corpus}")
+def load_corpus_data(
+    base_path: str, 
+    corpus: str) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    """
+    Load test, train, and gazetteer data for a specific corpus.
+
+    Args:
+        base_path (str): Base path containing the corpus directories.
+        corpus (str): Name of the corpus ("SympTEMIST", "MedProcNER", or "DisTEMIST").
+
+    Returns:
+        Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]: Test, train, and gazetteer DataFrames.
     
+    Raises:
+        ValueError: If the corpus is not supported.
+    """
+    corpus_paths = {
+        "SympTEMIST": {
+            "test": f"{base_path}/SympTEMIST/symptemist-complete_240208/symptemist_test/subtask2-linking/symptemist_tsv_test_subtask2.tsv",
+            "train": f"{base_path}/SympTEMIST/symptemist-complete_240208/symptemist_train/subtask2-linking/symptemist_tsv_train_subtask2_complete.tsv",
+            "gaz": f"{base_path}/SympTEMIST/symptemist-complete_240208/symptemist_gazetteer/symptemist_gazetter_snomed_ES_v2.tsv"
+        },
+        "MedProcNER": {
+            "test": f"{base_path}/MedProcNER/medprocner_gs_train+test+gazz+multilingual+crossmap_230808/medprocner_test/tsv/medprocner_tsv_test_subtask2.tsv",
+            "train": f"{base_path}/MedProcNER/medprocner_gs_train+test+gazz+multilingual+crossmap_230808/medprocner_train/tsv/medprocner_tsv_train_subtask2.tsv",
+            "gaz": f"{base_path}/MedProcNER/medprocner_gs_train+test+gazz+multilingual+crossmap_230808/medprocner_gazetteer/gazzeteer_medprocner_v1_noambiguity.tsv"
+        },
+        "DisTEMIST": {
+            "test": f"{base_path}/DisTEMIST/distemist_zenodo/test_annotated/subtrack2_linking/distemist_subtrack2_test_linking.tsv",
+            "train": f"{base_path}/DisTEMIST/distemist_zenodo/training/subtrack2_linking/distemist_subtrack2_training2_linking.tsv",
+            "gaz": f"{base_path}/DisTEMIST/dictionary_distemist.tsv"
+        }
+    }
+
+    if corpus not in corpus_paths:
+        raise ValueError(f"Unsupported corpus: {corpus}")
+
+    paths = corpus_paths[corpus]
+    test_df = pd.read_csv(paths["test"], sep="\t", dtype={"code": str})
+    train_df = pd.read_csv(paths["train"], sep="\t", dtype={"code": str})
+    df_gaz = pd.read_csv(paths["gaz"], sep="\t", dtype={"code": str})
+
+    if corpus == "SympTEMIST" or corpus == "MedProcNER":
+        test_df.rename(columns={'text': 'term'}, inplace=True)
+        train_df.rename(columns={'text': 'term'}, inplace=True)
+    elif corpus == "DisTEMIST":
+        test_df.rename(columns={'span': 'term'}, inplace=True)
+        train_df.rename(columns={'span': 'term'}, inplace=True)
+
     return test_df, train_df, df_gaz

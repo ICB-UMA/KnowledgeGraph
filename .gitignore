@@ -4,7 +4,10 @@ src/scui_to_cui_dict.pkl
 src/graph_G.pkl
 notebooks/umls_graph.pkl
 notebooks/UMLS2Graph.ipynb
-data/*
 models/*
 src/__pycache__
 logs/*
+venv/*
+notebooks/Bi-encoder_save.ipynb
+scripts/utils/*
+notebooks/KG_BKG_Triplets_Exploration.ipynb
